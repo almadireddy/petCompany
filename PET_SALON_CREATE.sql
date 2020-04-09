@@ -24,3 +24,16 @@ CREATE TABLE PET(
     CONSTRAINT pk_pet PRIMARY KEY (OwnerID, Name),
     CONSTRAINT fk_pet_client FOREIGN KEY (OwnerID) references CLIENT(ClientID) 
 );
+
+DROP TABLE IF EXISTS EMPLOYEE;
+CREATE TABLE EMPLOYEE(
+    EmployeeID  INT NOT NULL,
+    SSN         VARCHAR(255) NOT NULL UNIQUE,
+    Name        VARCHAR(255) NOT NULL,
+    Phone_number    VARCHAR(10) NOT NULL UNIQUE,
+    Email       VARCHAR(255) NOT NULL UNIQUE,
+    Hourly_wage DECIMAL(4,2),
+    Salary		DECIMAL(7,2),
+    CONSTRAINT pk_employee PRIMARY KEY (EmployeeID)
+);
+
