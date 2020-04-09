@@ -15,6 +15,29 @@ CREATE TABLE CLIENT(
     CONSTRAINT pk_client PRIMARY KEY (ClientID)
 );
 
+DROP TABLE IF EXISTS STORE_PRODUCTS;
+CREATE TABLE STORE_PRODUCTS(
+	ProductID INT NOT NULL,
+    Quantity INT NOT NULL,
+    Brand VARCHAR(255) NOT NULL,
+    Price FLOAT(2),
+    CONSTRAINT pk_storeproducts PRIMARY KEY (ProductID, quantity)
+    );
+    
+DROP TABLE IF EXISTS SPECIES;
+CREATE TABLE SPECIES(
+	Name VARCHAR(255) NOT NULL,
+    CONSTRAINT pk_species PRIMARY KEY (Name)
+    );
+    
+DROP TABLE IF EXISTS PRODUCT_SPECIES;
+CREATE TABLE PRODUCT_SPECIES(
+	StoreProduct INT NOT NULL,
+    Species VARCHAR(255) NOT NULL,
+    CONSTRAINT fk_productspecies_storeproducts FOREIGN KEY (StoreProduct) references STORE_PRODUCTS(ProductID), 
+	CONSTRAINT fk_productspecies_species FOREIGN KEY (Species) references SPECIES (Name) 
+    );
+
 DROP TABLE IF EXISTS PET;
 CREATE TABLE PET(
 	OwnerID		INT NOT NULL,
