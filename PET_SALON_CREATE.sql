@@ -37,3 +37,9 @@ CREATE TABLE EMPLOYEE(
     CONSTRAINT pk_employee PRIMARY KEY (EmployeeID)
 );
 
+DROP TABLE IF EXISTS MANAGER;
+CREATE TABLE MANAGER(
+	ManagerID	INT NOT NULL,
+    CONSTRAINT pk_manager PRIMARY KEY (ManagerID),
+    CONSTRAINT fk_manager_employee FOREIGN KEY (ManagerID) references EMPLOYEE (EmployeeID)
+);
