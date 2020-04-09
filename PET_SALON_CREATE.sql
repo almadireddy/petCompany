@@ -43,3 +43,10 @@ CREATE TABLE MANAGER(
     CONSTRAINT pk_manager PRIMARY KEY (ManagerID),
     CONSTRAINT fk_manager_employee FOREIGN KEY (ManagerID) references EMPLOYEE (EmployeeID)
 );
+
+DROP TABLE IF EXISTS GROOMER;
+CREATE TABLE GROOMER(
+	GroomerID	INT NOT NULL,
+    CONSTRAINT pk_groomer PRIMARY KEY (GroomerID),
+    CONSTRAINT fk_groomer_employee FOREIGN KEY (GroomerID) references EMPLOYEE (EmployeeID)
+);
