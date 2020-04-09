@@ -50,3 +50,10 @@ CREATE TABLE GROOMER(
     CONSTRAINT pk_groomer PRIMARY KEY (GroomerID),
     CONSTRAINT fk_groomer_employee FOREIGN KEY (GroomerID) references EMPLOYEE (EmployeeID)
 );
+
+DROP TABLE IF EXISTS RECEPTIONIST;
+CREATE TABLE RECEPTIONIST(
+	ReceptionistID	INT NOT NULL,
+    CONSTRAINT pk_receptionist PRIMARY KEY (ReceptionistID),
+    CONSTRAINT fk_receptionist_employee FOREIGN KEY (ReceptionistID) references EMPLOYEE (EmployeeID)
+);
