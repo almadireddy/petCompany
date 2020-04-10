@@ -1,0 +1,11 @@
+{
+  "name": "petCompany",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:almadireddy/petCompany.git",
+  "author": "Al Madireddy <al.madireddy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
