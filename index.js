@@ -11,10 +11,9 @@ const knex = require("knex")({
   }
 })
 
-const generate = async (hourly, min, max) => {
-  for (let i = min; i < max; i++) {
+const generate = async (hourly, count) => {
+  for (let i = 0; i < count; i++) {
     const e = {
-      employeeId: i,
       ssn: chance.ssn(), 
       name: chance.name(), 
       phone_number: chance.phone({ formatted: false}),
@@ -32,8 +31,39 @@ const generate = async (hourly, min, max) => {
   }  
 }
 
+const employeeTypes = async () => {
+  for (let i = 1; i <= 5; i++) {
+    console.log(`inserting employee ${i} into receptionist`)
+    await knex.insert({ ReceptionistID: i }).into("receptionist")
+  }
+
+  for (let i = 6; i <= 62; i++) {
+    console.log(`inserting employee ${i} into groomers`)
+    await knex.insert({ GroomerID: i}).into("groomer");
+  }
+
+  console.log(`inserting employees 63, 64, 65 into managers`)
+  await knex.insert([
+    { ManagerID: 65 },
+    { ManagerID: 64 },
+    { ManagerID: 63 },
+  ]).into("manager");
+}
+
+const shifts = async () => {
+
+}
+
 (async () => {
-  await generate(true, 1, 51);
-  await generate(false, 52, 52+15);
+  try {
+    await generate(true, 50);
+    await generate(false, 15);
+    await employeeTypes();
+    await shifts();
+    
+  } catch (e) {
+    console.log(e);
+    console.log("Error has occured. Rerun SQL file and run this again.")
+  }
   knex.destroy();
 })()

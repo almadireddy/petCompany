@@ -5,7 +5,7 @@ USE PET_SALON;
 
 DROP TABLE IF EXISTS CLIENT;
 CREATE TABLE CLIENT(
-	ClientID	INT NOT NULL,
+	ClientID	INT NOT NULL auto_increment,
     Fname		VARCHAR(255) NOT NULL,
     MInit		VARCHAR(1) NOT NULL,
     Lname		VARCHAR(255) NOT NULL,
@@ -18,7 +18,7 @@ CREATE TABLE CLIENT(
 
 DROP TABLE IF EXISTS STORE_PRODUCTS;
 CREATE TABLE STORE_PRODUCTS(
-	ProductID INT NOT NULL,
+	ProductID INT NOT NULL auto_increment,
     Quantity INT NOT NULL,
     Brand VARCHAR(255) NOT NULL,
     Price FLOAT(2),
@@ -51,7 +51,7 @@ CREATE TABLE PET(
 
 DROP TABLE IF EXISTS EMPLOYEE;
 CREATE TABLE EMPLOYEE(
-    EmployeeID  INT NOT NULL,
+    EmployeeID  INT NOT NULL auto_increment,
     SSN         VARCHAR(255) NOT NULL UNIQUE,
     Name        VARCHAR(255) NOT NULL,
     Phone_number    VARCHAR(10) NOT NULL UNIQUE,
@@ -84,7 +84,7 @@ CREATE TABLE RECEPTIONIST(
 
 DROP TABLE IF EXISTS SHIFT;
 CREATE TABLE SHIFT(
-    ShiftID int not null PRIMARY KEY,
+    ShiftID int not null PRIMARY KEY auto_increment,
     shift_type VARCHAR(2) not null,
     date datetime not null,
     supervisor int not null,
@@ -108,7 +108,7 @@ CREATE TABLE GROOMER_SHIFT(
 
 DROP TABLE IF EXISTS APPOINTMENT;
 create table APPOINTMENT(
-	appointment_id int not null primary key,
+	appointment_id int not null primary key auto_increment,
     duration time not null,
     start_time timestamp not null,
     groomer_id int not null,
