@@ -54,7 +54,6 @@ const shifts = async () => {
   const now = new Date();
   
   for (let d = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate()); d <= now; d.setDate(d.getDate() + 1)) {
-    const date = new Date(d);
     const shift = {
       date: d,
       shift_type: "am",
