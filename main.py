@@ -36,7 +36,7 @@ def generate_appointment(durations, owners, names):
     name = name if name[0] != '*' else name[1:]
     if 'ROUND' in name or 'MAX' in name:
         name = 'BOB'
-    return [str(duration), str(starttime), str(date), groomerid, int(ownerid), name]
+    return [str(duration), '{0} {1}'.format(date, starttime), groomerid, int(ownerid), name]
 
 pet_data = pd.read_csv('datasets/petdata.csv').set_index('Animal ID')
 
@@ -61,10 +61,13 @@ with open('pet_insert.sql', 'w') as file:
 
 with open('store_product_insert.sql', 'w') as file:
     for x in range(200):
-        file.write('INSERT INTO STOREPRODUCTS (Productid, Quantity, Brand, Price) \
-            \nVALUES ({0}, {1}, {2}, {3});\n'.format(x+1, *generate_product(brands)))
+        file.write('INSERT INTO STOREPRODUCTS (Quantity, Brand, Price) \
+            \nVALUES ({0}, {1}, {2});\n'.format(*generate_product(brands)))
 
 with open('appointments_insert.sql', 'w') as file:
     for x in range(400):
-        file.write('INSERT INTO APPOINTMENT (Appointment_id, duration, start_time, date, groomer_id, owner_id, pet_name) \
-            \nVALUES ({0}, {1}, {2}, {3}, {4}, {5}, {6});\n'.format(x+1, *generate_appointment(durations, owners, names)))
+        file.write('INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name) \
+            \nVALUES ({0}, {1}, {2}, {3}, {4});\n'.format(*generate_appointment(durations, owners, names)))
+
+with open('product_species_insert.sql', 'w') as file:
+    pass
