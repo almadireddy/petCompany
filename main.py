@@ -73,7 +73,7 @@ with open('pet_insert.sql', 'w') as file:
 
 with open('store_product_insert.sql', 'w') as file:
     for x in range(100):
-        file.write('INSERT INTO STOREPRODUCTS (Quantity, Brand, Price) \
+        file.write('INSERT INTO STORE_PRODUCTS (Quantity, Brand, Price) \
             \nVALUES ({0}, \'{1}\', {2});\n'.format(*generate_product(brands)))
 
 with open('appointments_insert.sql', 'w') as file:
