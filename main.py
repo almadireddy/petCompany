@@ -36,7 +36,7 @@ def generate_appointment(durations, owners, namesids):
         np.random.randint(1, 29)
     )
     groomerid = np.random.randint(6, 63) # groomer id values hardcoded bc im lazy
-    [ownerid, name] = namesids[np.random.choice(len(namesids))]
+    (ownerid, name) = namesids[np.random.choice(len(namesids))]
     return [str(duration), '{0} {1}'.format(date, starttime), groomerid, int(ownerid), name]
 
 def generate_product_species(species):
