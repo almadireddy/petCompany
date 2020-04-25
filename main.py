@@ -62,7 +62,7 @@ brands = ['AdVet', 'Alcott', 'Alpha Tech Pet',
 with open('pet_insert.sql', 'w') as file:
     for x in range(1000):
         file.write('INSERT INTO PET (Owner_id, Name, Breed, Species) \
-        \nVALUES ({0}, {1}, \'{2}\', \'{3}\');\n'.format(*generate_pet(owners, names, breeds)))
+        \nVALUES ({0}, \'{1}\', \'{2}\', \'{3}\');\n'.format(*generate_pet(owners, names, breeds)))
 
 with open('store_product_insert.sql', 'w') as file:
     for x in range(100):
