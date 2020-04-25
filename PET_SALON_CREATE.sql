@@ -21,6 +21,7 @@ CREATE TABLE STORE_PRODUCTS(
 	ProductID INT NOT NULL auto_increment,
     Quantity INT NOT NULL,
     Brand VARCHAR(255) NOT NULL,
+    Name VARCHAR(255) NOT NULL,
     Price FLOAT(2),
     CONSTRAINT pk_storeproducts PRIMARY KEY (ProductID)
 );

@@ -15,11 +15,12 @@ def generate_pet(owners, names, breeds, species):
         return [int(owner), name, breed[1], breed[1]]
     return [int(owner), name, breed[1], breed[0]]
 
-def generate_product(brands):
+def generate_product(brands, names):
     brand = np.random.choice(brands)
     quantity = np.random.randint(1, 20)
+    name = np.random.choice(names)
     price = float(np.random.randint(99, 10000))/100
-    return [quantity, brand, price]
+    return [quantity, brand, name, price]
 
 def generate_appointment(durations, owners, names):
     duration = (datetime.datetime(2001, 1, 1, 0, 0, 0) + \
@@ -56,13 +57,22 @@ owners = np.floor(np.linspace(1, 801, 1000))
 appointmentids = np.arange(1, 401)
 durations = [30, 60, 90, 120]
 
-brands = ['AdVet', 'Alcott', 'Alpha Tech Pet',
-            'Aquapaw', 'BarkLogic', 'Bissell', 
-            'CannaLove', 'Cool Pup', 'Crazy Dog', 
-            'Dermapaw', 'Epi-Pet', 'Four Paws', 
-            'FurHaven', 'K&H', 'Grooming Tools',
-            'NaturPet', 'Pet Gear', 'Purrdy Paws', 
-            'TruDog', 'Wags & Wiggles', 'Zymox']
+brands = [
+    'AdVet', 'Alcott', 'Alpha Tech Pet',
+    'Aquapaw', 'BarkLogic', 'Bissell', 
+    'CannaLove', 'Cool Pup', 'Crazy Dog', 
+    'Dermapaw', 'Epi-Pet', 'Four Paws', 
+    'FurHaven', 'K&H', 'Grooming Tools',
+    'NaturPet', 'Pet Gear', 'Purrdy Paws', 
+    'TruDog', 'Wags & Wiggles', 'Zymox'
+]
+
+products = [
+    'Comb', 'Deshedding Tool', 'Slicker Brush',
+    'Rake', 'Pin Brush', 'Bristle Brush',
+    'Blade', 'Glove', 'Curry Brush', 'Self-Groomer',
+    'Supplement', 'Medication', 'Shampoo'
+]
 
 species = set(['DOG', 'CAT'])
 
@@ -73,8 +83,8 @@ with open('pet_insert.sql', 'w') as file:
 
 with open('store_product_insert.sql', 'w') as file:
     for x in range(100):
-        file.write('INSERT INTO STORE_PRODUCTS (Quantity, Brand, Price) \
-            \nVALUES ({0}, \'{1}\', {2});\n'.format(*generate_product(brands)))
+        file.write('INSERT INTO STORE_PRODUCTS (Quantity, Brand, Name, Price) \
+            \nVALUES ({0}, \'{1}\', \'{2}\', {3});\n'.format(*generate_product(brands, products)))
 
 with open('appointments_insert.sql', 'w') as file:
     for x in range(400):
