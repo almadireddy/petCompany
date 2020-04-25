@@ -22,7 +22,7 @@ def generate_product(brands, names):
     price = float(np.random.randint(99, 10000))/100
     return [quantity, brand, name, price]
 
-def generate_appointment(durations, owners, names):
+def generate_appointment(durations, owners, namesids):
     duration = (datetime.datetime(2001, 1, 1, 0, 0, 0) + \
     datetime.timedelta(minutes=int(np.random.choice(durations)))).time()
     starttime = datetime.time(
@@ -36,11 +36,7 @@ def generate_appointment(durations, owners, names):
         np.random.randint(1, 29)
     )
     groomerid = np.random.randint(6, 63) # groomer id values hardcoded bc im lazy
-    ownerid = np.random.choice(owners)
-    name = np.random.choice(names) 
-    name = name if name[0] != '*' else name[1:]
-    if 'ROUND' in name or 'MAX' in name:
-        name = 'BOB'
+    [ownerid, name] = namesids[np.random.choice(len(namesids))]
     return [str(duration), '{0} {1}'.format(date, starttime), groomerid, int(ownerid), name]
 
 def generate_product_species(species):
@@ -75,11 +71,16 @@ products = [
 ]
 
 species = set(['DOG', 'CAT'])
+namesids = []
 
 with open('pet_insert.sql', 'w') as file:
     for x in range(1000):
+        pet = generate_pet(owners, names, breeds, species)
+        if tuple([pet[0], [pet[1]]]) in namesids:
+            continue
+        namesids.append(tuple([pet[0], pet[1]]))
         file.write('INSERT INTO PET (owner_id, Name, Breed, Species) \
-        \nVALUES ({0}, \'{1}\', \'{2}\', \'{3}\');\n'.format(*generate_pet(owners, names, breeds, species)))
+        \nVALUES ({0}, \'{1}\', \'{2}\', \'{3}\');\n'.format(*pet))
 
 with open('store_product_insert.sql', 'w') as file:
     for x in range(100):
@@ -89,7 +90,7 @@ with open('store_product_insert.sql', 'w') as file:
 with open('appointments_insert.sql', 'w') as file:
     for x in range(400):
         file.write('INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name) \
-            \nVALUES (\'{0}\', \'{1}\', {2}, {3}, \'{4}\');\n'.format(*generate_appointment(durations, owners, names)))
+            \nVALUES (\'{0}\', \'{1}\', {2}, {3}, \'{4}\');\n'.format(*generate_appointment(durations, owners, namesids)))
 
 with open('product_species_insert.sql', 'w') as file:
     for x in range(500):
