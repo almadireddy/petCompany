@@ -9,7 +9,7 @@ def generate_pet(owners, names, breeds):
     if 'ROUND' in name or 'MAX' in name:
         name = 'BOB'
     breed = breeds[np.random.choice(len(breeds))]
-    return [int(owner), name, breed[0], breed[1]]
+    return [int(owner), name, breed[1], breed[0]]
 
 def generate_product(brands):
     brand = np.random.choice(brands)
@@ -38,6 +38,11 @@ def generate_appointment(durations, owners, names):
         name = 'BOB'
     return [str(duration), '{0} {1}'.format(date, starttime), groomerid, int(ownerid), name]
 
+def generate_product_species(species):
+    id = np.random.randint(1, 101)
+    species = species[np.random.choice(len(species))][0]
+    return [id, species]
+
 pet_data = pd.read_csv('datasets/petdata.csv').set_index('Animal ID')
 
 names = list(pet_data['Pet name'])
@@ -57,17 +62,19 @@ brands = ['AdVet', 'Alcott', 'Alpha Tech Pet',
 with open('pet_insert.sql', 'w') as file:
     for x in range(1000):
         file.write('INSERT INTO PET (Owner_id, Name, Breed, Species) \
-        \nVALUES ({0}, {1}, {2}, {3});\n'.format(*generate_pet(owners, names, breeds)))
+        \nVALUES ({0}, {1}, \'{2}\', \'{3}\');\n'.format(*generate_pet(owners, names, breeds)))
 
 with open('store_product_insert.sql', 'w') as file:
-    for x in range(200):
+    for x in range(100):
         file.write('INSERT INTO STOREPRODUCTS (Quantity, Brand, Price) \
-            \nVALUES ({0}, {1}, {2});\n'.format(*generate_product(brands)))
+            \nVALUES ({0}, \'{1}\', {2});\n'.format(*generate_product(brands)))
 
 with open('appointments_insert.sql', 'w') as file:
     for x in range(400):
         file.write('INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name) \
-            \nVALUES ({0}, {1}, {2}, {3}, {4});\n'.format(*generate_appointment(durations, owners, names)))
+            \nVALUES (\'{0}\', \'{1}\', {2}, {3}, \'{4}\');\n'.format(*generate_appointment(durations, owners, names)))
 
 with open('product_species_insert.sql', 'w') as file:
-    pass
+    for x in range(500):
+        file.write('INSERT INTO PRODUCT_SPECIES (StoreProduct, Species) \
+            \nVALUES ({0}, \'{1}\');\n'.format(*generate_product_species(breeds)))

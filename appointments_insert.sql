@@ -1,800 +1,800 @@
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-08-10 12:49:08, 59, 153, POP ROCKS);
+VALUES ('02:00:00', '2019-03-25 01:21:54', 41, 358, 'SHERMAN');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-07-06 17:44:15, 43, 121, CHICA);
+VALUES ('00:30:00', '2019-08-05 20:49:58', 12, 122, 'RYUU');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-01-22 16:38:22, 55, 220, TYLER);
+VALUES ('00:30:00', '2019-09-12 16:23:26', 59, 668, 'KASSI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-01-28 11:04:45, 27, 376, PLAYER);
+VALUES ('01:00:00', '2019-06-19 21:02:27', 44, 778, 'NACHOCAT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-09-06 06:36:54, 23, 736, SIR FLIP);
+VALUES ('01:00:00', '2019-01-22 05:41:53', 7, 151, 'SADIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-03-27 09:53:30, 46, 745, ROCKO);
+VALUES ('00:30:00', '2020-11-19 09:19:29', 10, 717, 'GAYLORD');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-04-01 10:13:04, 24, 93, ROSEMARY);
+VALUES ('01:30:00', '2020-09-04 21:09:25', 29, 726, 'NATHAN');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-11-03 14:59:09, 28, 496, SLIMMIE);
+VALUES ('00:30:00', '2020-11-20 23:28:33', 7, 705, 'COCONUT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-08-23 02:01:52, 24, 304, KATO);
+VALUES ('00:30:00', '2019-01-10 14:11:52', 32, 468, 'TONKA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-03-25 09:57:19, 38, 13, LILLY);
+VALUES ('01:30:00', '2019-05-11 11:15:47', 35, 279, 'DOT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-08-27 09:31:57, 18, 742, BABY);
+VALUES ('01:30:00', '2020-03-07 19:33:42', 43, 92, 'TUK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-09-13 17:58:04, 35, 750, WILLOW);
+VALUES ('01:00:00', '2019-06-21 08:45:19', 12, 545, 'PATRICK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-12-04 03:20:24, 11, 462, HONEY);
+VALUES ('01:00:00', '2019-01-17 20:11:59', 20, 11, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-05-11 02:15:19, 26, 117, JAZZ);
+VALUES ('02:00:00', '2019-10-21 08:26:26', 49, 226, 'EASTER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-01-19 08:32:50, 54, 294, DONNIE);
+VALUES ('00:30:00', '2019-11-12 16:47:26', 48, 176, 'YAHTZEE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-03-06 07:26:21, 7, 169, BENTLEY);
+VALUES ('00:30:00', '2019-09-23 03:25:03', 11, 660, 'PINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-10-12 14:47:40, 32, 467, LULU);
+VALUES ('00:30:00', '2019-08-22 19:44:44', 22, 397, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-05-24 23:47:57, 27, 495, SILVER CARP);
+VALUES ('02:00:00', '2020-11-22 13:58:36', 15, 9, 'REESE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-03-11 04:33:17, 27, 374, MR. JINGLES);
+VALUES ('01:30:00', '2020-03-09 08:54:34', 10, 270, 'BENTLEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-02-05 18:18:43, 31, 350, SADIE);
+VALUES ('01:30:00', '2019-08-20 10:39:17', 53, 728, 'JR');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-11-01 10:56:18, 50, 364, WOBBLE);
+VALUES ('00:30:00', '2019-12-06 22:15:37', 41, 646, 'STAR');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-04-12 02:50:56, 47, 286, LILLY);
+VALUES ('02:00:00', '2020-02-13 09:17:21', 56, 773, 'NATE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-10-23 20:10:54, 19, 142, ROSEMARY);
+VALUES ('00:30:00', '2020-02-03 05:03:35', 41, 540, 'JUBILEE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-01-24 21:28:25, 42, 717, SIMBA);
+VALUES ('01:30:00', '2020-05-19 13:12:50', 41, 601, 'WINKLES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-11-02 13:27:08, 60, 236, RICK);
+VALUES ('01:00:00', '2020-05-17 13:05:47', 34, 362, 'PETER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-08-27 11:12:24, 27, 591, KIELBASA);
+VALUES ('00:30:00', '2019-09-24 12:05:49', 38, 624, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-02-28 10:54:34, 45, 38, HONEY);
+VALUES ('01:00:00', '2020-07-06 18:26:41', 14, 463, 'ROCKY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-09-05 06:27:07, 38, 435, NUBIAN);
+VALUES ('01:30:00', '2020-03-11 19:57:37', 22, 335, 'MR GREYSON');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-08-15 07:21:03, 29, 599, KIKI);
+VALUES ('00:30:00', '2019-07-16 16:34:57', 24, 457, 'PEANUT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-10-26 05:46:58, 40, 65, SELENA);
+VALUES ('00:30:00', '2020-11-27 15:53:20', 17, 744, 'MABON');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-06-20 07:51:10, 34, 441, BK);
+VALUES ('02:00:00', '2019-11-12 06:47:15', 57, 408, 'BENTLEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-09-17 04:16:37, 48, 145, OLIVIA);
+VALUES ('01:00:00', '2019-09-25 04:34:28', 34, 662, 'DOT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-08-05 07:44:35, 27, 734, BENNA);
+VALUES ('00:30:00', '2019-07-22 01:02:22', 9, 218, 'NACHOCAT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-08-08 03:23:04, 53, 417, SADIE);
+VALUES ('01:00:00', '2019-12-22 14:38:44', 54, 192, 'LANE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-07-02 07:32:28, 28, 779, JAZ);
+VALUES ('01:00:00', '2020-06-13 23:53:10', 56, 590, 'SIMBA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-01-08 19:45:22, 25, 83, SADIE);
+VALUES ('01:30:00', '2019-05-12 01:42:12', 24, 761, 'RAY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-04-28 10:55:44, 31, 780, LUCKY);
+VALUES ('01:30:00', '2019-04-19 11:51:50', 52, 417, 'PORTABELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-10-18 12:34:51, 34, 231, MEOWETH);
+VALUES ('00:30:00', '2019-10-16 19:34:14', 25, 422, 'KIELBASA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-05-26 10:43:22, 19, 440, NATE);
+VALUES ('02:00:00', '2020-08-03 21:21:50', 40, 323, 'TYLER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-06-22 20:10:20, 29, 358, HONEY);
+VALUES ('02:00:00', '2020-11-06 10:35:16', 18, 266, 'PIPISTRELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-03-17 04:25:08, 61, 177, CALI);
+VALUES ('01:00:00', '2019-01-14 08:36:45', 26, 475, 'ROCKO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-12-16 20:38:28, 54, 374, JR);
+VALUES ('02:00:00', '2020-01-05 19:40:55', 14, 780, 'DIAMOND');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-07-20 19:30:49, 23, 189, PEANUT);
+VALUES ('01:00:00', '2019-12-03 13:23:54', 54, 760, 'TUK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-01-18 03:14:16, 14, 647, GAYLORD);
+VALUES ('02:00:00', '2020-06-09 01:38:37', 23, 720, 'WINKLES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-10-06 09:06:19, 36, 732, BENTLEY);
+VALUES ('02:00:00', '2020-05-09 20:08:21', 32, 82, 'NATE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-10-23 10:45:21, 56, 27, RYUU);
+VALUES ('01:30:00', '2019-05-11 06:07:03', 53, 788, 'BUTTERBALL');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-10-14 01:51:04, 52, 432, FINNIGAN);
+VALUES ('02:00:00', '2019-08-24 05:08:10', 20, 336, 'PIPISTRELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-06-04 05:34:36, 29, 705, TRUEY);
+VALUES ('00:30:00', '2019-06-23 08:46:17', 27, 783, 'MR. JINGLES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-07-09 09:07:11, 58, 696, STORM);
+VALUES ('01:00:00', '2020-11-18 10:42:21', 6, 391, 'NINJA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-01-11 13:50:32, 42, 704, EVERETT);
+VALUES ('00:30:00', '2020-03-17 12:52:48', 17, 188, 'LUCKY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-12-26 11:22:55, 16, 130, NATE);
+VALUES ('01:30:00', '2019-09-02 15:17:46', 6, 679, 'LUNA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-01-09 01:04:24, 33, 357, ROSEMARY);
+VALUES ('01:30:00', '2019-02-12 16:55:32', 35, 562, 'BK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-06-22 07:20:59, 53, 348, BOB);
+VALUES ('01:30:00', '2020-09-13 14:26:34', 9, 719, 'PETER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-02-09 18:25:16, 18, 263, PLAYER);
+VALUES ('02:00:00', '2019-02-27 21:07:12', 55, 482, 'REBEL');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-01-11 10:43:09, 57, 639, BUSTER);
+VALUES ('00:30:00', '2020-09-15 22:32:03', 27, 604, 'PESTO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-12-11 10:28:53, 35, 210, EVERETT);
+VALUES ('00:30:00', '2019-08-10 11:47:51', 51, 686, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-05-08 08:53:27, 50, 789, NUBIAN);
+VALUES ('01:30:00', '2019-01-08 20:28:43', 9, 603, 'TRUEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-03-22 08:57:13, 9, 377, GERMANY);
+VALUES ('02:00:00', '2020-01-14 09:47:24', 7, 467, 'KIKI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-10-12 23:05:27, 27, 161, NUBIAN);
+VALUES ('01:30:00', '2020-07-04 03:40:50', 42, 749, 'JAYMI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-01-05 07:48:35, 9, 55, LANE);
+VALUES ('01:30:00', '2020-05-24 13:36:16', 11, 576, 'ELSA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-05-24 19:58:09, 8, 342, TRUEY);
+VALUES ('01:00:00', '2019-02-03 02:32:51', 18, 553, 'LUNA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-10-18 09:31:51, 35, 745, LULU);
+VALUES ('01:30:00', '2020-07-07 08:27:10', 41, 557, 'GAYLORD');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-09-21 19:43:11, 57, 714, LOUIE);
+VALUES ('01:00:00', '2019-01-21 11:34:53', 49, 220, 'THYMY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-12-24 03:18:14, 61, 7, PLAYER);
+VALUES ('01:00:00', '2020-05-08 22:14:34', 49, 483, 'BAGUETTE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-06-10 11:38:45, 45, 278, TYLER);
+VALUES ('00:30:00', '2020-02-10 03:09:04', 42, 515, 'BABY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-03-17 18:21:27, 35, 111, PENNY);
+VALUES ('01:00:00', '2019-11-06 12:30:08', 59, 28, 'PUCK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-06-05 02:44:17, 40, 523, BENNA);
+VALUES ('00:30:00', '2020-11-12 02:34:24', 53, 509, 'BABY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-08-27 18:02:49, 61, 583, ELSA);
+VALUES ('01:30:00', '2019-09-09 02:04:34', 23, 11, 'HONEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-06-17 09:41:41, 42, 173, BAXTER);
+VALUES ('01:30:00', '2020-04-19 10:54:53', 38, 740, 'DEUCE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-07-12 04:27:55, 22, 768, MIMI);
+VALUES ('02:00:00', '2020-03-22 23:23:05', 61, 249, 'RIGATONI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-09-05 10:15:20, 57, 53, SHERMAN);
+VALUES ('00:30:00', '2019-09-22 17:05:22', 27, 591, 'PIPISTRELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-03-16 04:51:37, 24, 52, SHERMAN);
+VALUES ('01:30:00', '2020-10-04 10:22:40', 28, 652, 'FRISKY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-09-27 10:07:34, 11, 347, HARRIS);
+VALUES ('02:00:00', '2019-07-02 04:47:53', 21, 768, 'JAYMI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-04-07 03:32:43, 45, 635, BUSTER);
+VALUES ('02:00:00', '2020-12-02 15:18:30', 17, 517, 'SIR FLIP');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-01-07 08:21:16, 51, 390, FINNIGAN);
+VALUES ('00:30:00', '2019-06-10 23:24:11', 27, 77, 'DONNIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-01-18 09:38:55, 32, 680, BUSTER);
+VALUES ('01:00:00', '2020-10-07 07:36:13', 9, 403, 'KASSI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-08-05 16:50:18, 46, 483, RICK);
+VALUES ('02:00:00', '2020-10-11 05:36:54', 44, 375, 'JASMINE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-01-15 22:25:19, 33, 645, PETER);
+VALUES ('02:00:00', '2019-08-27 02:12:17', 37, 550, 'HONEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-10-25 22:55:05, 19, 321, JR);
+VALUES ('01:00:00', '2020-03-04 10:29:47', 27, 555, 'BISON');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-08-06 08:56:05, 45, 624, FISH 1);
+VALUES ('01:30:00', '2020-02-27 18:04:41', 60, 208, 'COCOA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-03-15 13:41:06, 24, 716, SCOOBY);
+VALUES ('01:30:00', '2019-12-17 23:03:42', 47, 393, 'NICO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-02-26 17:54:28, 56, 309, TYLER);
+VALUES ('00:30:00', '2020-04-01 15:54:56', 15, 382, 'LALA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-03-14 16:40:03, 50, 546, OLIVIA);
+VALUES ('01:30:00', '2019-02-21 01:21:11', 43, 682, 'MINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-09-13 11:39:31, 53, 241, THYMY);
+VALUES ('01:30:00', '2019-07-26 03:09:35', 26, 575, 'FALAFEL');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-04-09 17:12:33, 43, 368, KATO);
+VALUES ('00:30:00', '2019-04-19 01:43:44', 22, 331, 'STAR');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-08-07 23:28:29, 62, 629, BAGUETTE);
+VALUES ('01:00:00', '2020-09-20 22:50:24', 19, 273, 'FELECIA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-09-10 05:13:13, 49, 463, NATHAN);
+VALUES ('01:00:00', '2020-01-09 04:46:42', 60, 185, 'TZATZIKI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-01-05 01:03:06, 59, 660, BENTLEY);
+VALUES ('02:00:00', '2020-02-07 19:22:13', 21, 278, 'FISH 1');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-01-13 17:17:02, 52, 214, SCOOBY);
+VALUES ('01:30:00', '2020-05-27 17:10:05', 35, 364, 'FALAFEL');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-02-04 16:47:49, 24, 686, DONNIE);
+VALUES ('00:30:00', '2020-05-21 09:43:46', 51, 33, 'YAHTZEE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-06-17 01:09:06, 45, 600, LULU);
+VALUES ('01:00:00', '2019-10-26 14:10:07', 42, 597, 'REBEL');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-11-23 11:17:25, 57, 639, PINK);
+VALUES ('01:00:00', '2019-11-07 10:55:38', 22, 700, 'KIKI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-12-23 13:43:06, 6, 366, NATE);
+VALUES ('02:00:00', '2019-03-06 12:30:42', 58, 9, 'MONDI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-05-15 01:53:02, 38, 211, JAYMI);
+VALUES ('01:00:00', '2020-06-24 22:21:08', 51, 724, 'BABY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-05-17 22:54:02, 62, 378, EVERETT);
+VALUES ('02:00:00', '2019-11-24 20:46:46', 29, 17, 'FRISKY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-10-06 17:14:59, 9, 457, PEETA);
+VALUES ('02:00:00', '2020-06-07 13:19:20', 38, 189, 'MERCEDES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-05-18 23:19:15, 50, 736, ROCKY);
+VALUES ('00:30:00', '2020-08-09 14:01:36', 10, 575, 'BENNA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-12-19 19:34:41, 21, 157, BENNA);
+VALUES ('01:30:00', '2020-05-26 05:08:43', 38, 570, 'COCONUT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-05-18 20:13:44, 22, 669, LANE);
+VALUES ('01:30:00', '2019-10-19 05:13:33', 13, 579, 'RAY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-02-14 17:02:10, 59, 173, FRISKY);
+VALUES ('01:00:00', '2020-09-23 21:10:22', 33, 638, 'EVERETT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-03-12 12:27:03, 25, 53, GERMANY);
+VALUES ('02:00:00', '2020-10-12 16:24:59', 35, 762, 'SLIMMIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-02-24 22:17:29, 35, 497, LANCELOT);
+VALUES ('00:30:00', '2020-11-26 09:20:42', 37, 85, 'DRE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-08-03 14:58:54, 12, 758, THYMY);
+VALUES ('01:30:00', '2020-09-07 22:50:16', 19, 641, 'DEUCE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-07-03 06:33:46, 12, 519, YAHTZEE);
+VALUES ('00:30:00', '2020-07-15 19:19:15', 54, 748, 'COOKIE DOUGH');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-11-28 18:29:44, 16, 415, NACHOCAT);
+VALUES ('02:00:00', '2020-04-16 12:18:44', 28, 321, 'JR');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-09-07 10:28:39, 62, 542, ELSA);
+VALUES ('02:00:00', '2020-09-23 13:10:19', 56, 708, 'JASMINE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-11-27 01:08:34, 39, 60, BLUFF);
+VALUES ('02:00:00', '2019-09-21 18:22:03', 13, 390, 'NICO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-12-12 02:23:59, 43, 364, DRE);
+VALUES ('01:00:00', '2020-11-15 02:38:53', 31, 238, 'LUCKY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-08-24 12:03:37, 30, 181, CARLA);
+VALUES ('02:00:00', '2020-06-06 02:45:18', 24, 371, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-04-20 21:29:27, 16, 604, KIKI);
+VALUES ('00:30:00', '2019-07-04 08:08:37', 41, 451, 'BK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-10-01 19:02:45, 20, 289, JAZZ);
+VALUES ('00:30:00', '2019-08-14 16:17:07', 44, 5, 'LULU');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-07-18 07:03:53, 56, 282, MIMI);
+VALUES ('01:00:00', '2019-12-23 05:14:34', 52, 40, 'COCOA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-10-18 06:22:15, 58, 395, MAMA);
+VALUES ('01:00:00', '2020-06-22 03:33:01', 16, 443, 'HARRIS');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-10-25 07:44:11, 14, 308, LANE);
+VALUES ('02:00:00', '2020-02-14 11:17:49', 46, 80, 'DEUCE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-06-23 20:36:28, 23, 141, HONEY);
+VALUES ('02:00:00', '2020-12-07 22:17:16', 7, 24, 'LUCKY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-09-12 21:34:25, 6, 126, REESE);
+VALUES ('00:30:00', '2020-10-28 14:35:31', 13, 482, 'TRUEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-09-02 17:32:37, 50, 634, ELSA);
+VALUES ('01:30:00', '2020-09-17 07:04:58', 57, 348, 'JAZ');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-04-12 22:51:31, 37, 427, LALA);
+VALUES ('01:30:00', '2020-06-25 19:46:22', 45, 723, 'MINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-11-17 09:21:03, 45, 485, HARRIS);
+VALUES ('01:00:00', '2020-10-23 13:10:20', 32, 501, 'PATRICK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-09-18 21:16:45, 55, 114, LULU);
+VALUES ('01:00:00', '2020-10-20 06:56:34', 13, 1, 'HONEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-06-14 03:13:39, 6, 413, PINK);
+VALUES ('02:00:00', '2019-01-23 16:43:25', 33, 567, 'KASSI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-06-11 22:12:34, 9, 575, TYLER);
+VALUES ('01:30:00', '2020-09-14 21:26:49', 13, 577, 'BENNA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-02-01 08:37:44, 62, 143, GORDO);
+VALUES ('02:00:00', '2019-07-12 03:54:08', 54, 649, 'PINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-09-06 05:46:39, 43, 451, BISON);
+VALUES ('00:30:00', '2020-09-14 13:07:08', 47, 297, 'JASMINE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-07-26 12:47:38, 56, 261, TZATZIKI);
+VALUES ('01:30:00', '2020-03-13 12:04:59', 44, 312, 'SHERMAN');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-10-27 13:05:25, 36, 237, PINK);
+VALUES ('02:00:00', '2020-05-15 20:07:57', 28, 758, 'CHARLES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-03-24 07:43:04, 56, 598, LULU);
+VALUES ('02:00:00', '2020-08-05 15:45:32', 37, 140, 'SANGRIA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-04-25 17:06:37, 6, 286, COCOA);
+VALUES ('02:00:00', '2020-12-11 21:53:08', 59, 718, 'ROCKO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-08-23 05:11:32, 56, 587, TYLER);
+VALUES ('01:00:00', '2019-12-03 20:30:49', 50, 375, 'LANCELOT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-05-25 18:30:41, 56, 168, ROCKO);
+VALUES ('01:00:00', '2020-03-08 04:03:36', 11, 75, 'BUSTER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-08-14 21:04:57, 15, 67, BK);
+VALUES ('01:00:00', '2020-09-25 23:57:57', 42, 733, 'TRUEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-05-15 16:28:31, 14, 193, MEOWETH);
+VALUES ('01:30:00', '2019-03-01 02:40:39', 53, 46, 'BOU');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-09-06 20:47:25, 16, 360, BABY);
+VALUES ('01:00:00', '2020-06-28 06:07:34', 30, 346, 'SADIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-07-18 05:15:52, 59, 422, PETER);
+VALUES ('00:30:00', '2019-04-06 14:52:33', 16, 595, 'MONDI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-10-27 17:04:11, 42, 91, DOG);
+VALUES ('01:00:00', '2020-12-21 02:57:09', 23, 723, 'MR GREYSON');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-10-02 04:46:12, 8, 553, NICO);
+VALUES ('00:30:00', '2020-12-23 16:47:18', 21, 180, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-12-26 09:41:43, 16, 358, ELSA);
+VALUES ('00:30:00', '2019-05-01 03:24:07', 32, 756, 'BENNA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-12-24 20:39:03, 62, 530, BOB);
+VALUES ('00:30:00', '2020-08-14 09:12:19', 37, 298, 'JAYMI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-08-06 13:47:36, 59, 85, RYUU);
+VALUES ('01:30:00', '2019-02-01 08:30:30', 54, 161, 'CALI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-10-26 21:44:55, 54, 222, CHICO);
+VALUES ('00:30:00', '2019-01-01 08:35:55', 44, 544, 'COOKIE DOUGH');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-03-12 11:31:38, 18, 717, MABON);
+VALUES ('02:00:00', '2019-05-23 23:36:18', 48, 684, 'SIR FLIP');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-01-11 06:49:22, 11, 441, SCOOBY);
+VALUES ('01:00:00', '2020-10-19 12:24:49', 21, 23, 'OLIVIA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-09-14 16:58:23, 39, 290, MABON);
+VALUES ('00:30:00', '2020-12-27 10:41:46', 16, 550, 'YAHTZEE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-06-17 17:36:55, 49, 764, PETER);
+VALUES ('01:30:00', '2020-03-01 05:32:04', 62, 629, 'ZENA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-08-22 03:52:49, 34, 792, EASTER);
+VALUES ('01:30:00', '2020-06-27 12:03:35', 37, 418, 'SIMBA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-01-13 12:56:37, 56, 361, ELSA);
+VALUES ('01:00:00', '2019-07-27 09:24:36', 23, 756, 'MERCEDES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-11-11 21:33:26, 28, 482, MONDI);
+VALUES ('00:30:00', '2019-04-26 07:43:35', 22, 690, 'NATHAN');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-01-18 13:22:02, 57, 764, DOT);
+VALUES ('01:30:00', '2020-02-02 18:54:51', 6, 724, 'CHICO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-04-10 13:20:13, 58, 768, PORTABELLO);
+VALUES ('02:00:00', '2020-07-26 11:48:53', 57, 106, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-01-05 18:11:15, 22, 485, FRISKY);
+VALUES ('02:00:00', '2019-10-26 15:36:35', 52, 780, 'MERCEDES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-09-24 21:04:43, 29, 148, NACHOCAT);
+VALUES ('02:00:00', '2019-05-06 02:58:45', 62, 662, 'EASTER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-06-23 16:37:28, 27, 224, FELECIA);
+VALUES ('01:00:00', '2020-11-22 03:52:05', 46, 211, 'PINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-02-18 20:57:04, 22, 346, COCONUT);
+VALUES ('01:30:00', '2019-09-17 01:12:18', 48, 794, 'COCOA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-07-14 14:58:38, 55, 528, PORTABELLO);
+VALUES ('01:00:00', '2019-02-22 05:43:33', 60, 97, 'TUK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-01-03 23:09:47, 11, 28, BOB);
+VALUES ('00:30:00', '2020-06-10 13:39:06', 7, 91, 'GAYLORD');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-12-01 10:45:57, 36, 712, HOOPS);
+VALUES ('02:00:00', '2020-08-08 19:22:51', 53, 620, 'PEPPER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-12-26 08:32:31, 23, 575, TRUEY);
+VALUES ('02:00:00', '2020-11-22 16:40:15', 55, 210, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-07-04 23:12:25, 54, 4, BENTLEY);
+VALUES ('01:00:00', '2020-12-16 09:58:54', 27, 596, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-11-05 23:20:51, 58, 786, CHARLES);
+VALUES ('00:30:00', '2019-07-09 09:34:15', 39, 530, 'TRUEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-12-21 15:44:26, 38, 777, FELECIA);
+VALUES ('01:00:00', '2019-10-08 10:14:25', 57, 728, 'DEUCE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-03-12 21:14:46, 36, 442, CHICO);
+VALUES ('01:30:00', '2019-04-15 18:08:13', 6, 669, 'ZENA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-10-25 13:42:42, 45, 414, MR GREYSON);
+VALUES ('01:00:00', '2020-02-25 15:33:31', 40, 60, 'CHARITY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-02-19 08:15:36, 20, 313, DRE);
+VALUES ('01:00:00', '2019-06-07 03:50:41', 56, 53, 'SADIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-07-09 07:02:04, 38, 473, CARLA);
+VALUES ('01:30:00', '2020-03-14 06:18:30', 24, 547, 'BABY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-01-14 20:21:25, 35, 422, MIMI);
+VALUES ('01:30:00', '2019-09-18 12:16:29', 50, 624, 'ZENA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-08-22 08:54:47, 52, 711, DOT);
+VALUES ('02:00:00', '2020-03-01 05:46:07', 40, 432, 'STORM');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-10-02 03:36:32, 43, 172, PEANUT);
+VALUES ('00:30:00', '2019-08-09 19:57:27', 49, 37, 'PEETA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-11-03 04:30:49, 35, 14, CARLA);
+VALUES ('02:00:00', '2020-03-03 17:01:31', 18, 700, 'LILY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-05-11 10:08:58, 52, 707, SIR FLIP);
+VALUES ('00:30:00', '2019-07-09 14:28:07', 30, 772, 'JAYMI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-12-13 05:15:12, 24, 60, BOB);
+VALUES ('00:30:00', '2019-01-22 16:42:02', 43, 581, 'DRE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-06-15 01:29:47, 20, 153, BOB);
+VALUES ('01:00:00', '2019-07-23 10:29:11', 34, 166, 'FISH 1');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-07-28 03:32:51, 24, 33, ROSEMARY);
+VALUES ('02:00:00', '2020-04-11 12:56:28', 37, 587, 'TOASTEDMARSHMALLOW');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-06-15 16:28:28, 40, 238, STAR);
+VALUES ('01:30:00', '2019-05-23 14:54:01', 35, 52, 'PATRICK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-01-02 05:39:29, 29, 728, LULU);
+VALUES ('02:00:00', '2019-08-10 01:53:43', 30, 111, 'TUK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-09-11 04:08:35, 11, 63, TYSON);
+VALUES ('02:00:00', '2019-08-08 01:17:54', 61, 524, 'DRE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-05-06 23:35:24, 10, 301, CHICO);
+VALUES ('01:00:00', '2020-10-26 23:41:34', 39, 386, 'EVERETT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-02-08 12:20:02, 54, 415, HARRIS);
+VALUES ('00:30:00', '2019-07-26 02:40:13', 6, 384, 'MABON');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-08-10 08:23:35, 24, 650, CHICO);
+VALUES ('02:00:00', '2019-07-23 20:12:05', 22, 572, 'FLAPJACK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-04-15 09:43:39, 24, 335, RAVI);
+VALUES ('00:30:00', '2020-03-21 14:44:02', 44, 469, 'JUBILEE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-10-24 11:44:32, 25, 752, STAR);
+VALUES ('02:00:00', '2020-12-24 19:14:07', 32, 4, 'RAVI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-03-21 13:14:04, 35, 238, WOBBLE);
+VALUES ('01:00:00', '2020-12-03 01:51:15', 44, 457, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-08-22 21:48:31, 50, 227, SILVER CARP);
+VALUES ('01:00:00', '2019-04-24 06:34:41', 17, 749, 'WINKLES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-12-27 12:47:21, 43, 345, CALYPSO);
+VALUES ('02:00:00', '2020-01-15 06:10:25', 59, 145, 'BAXTER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-06-07 22:32:07, 29, 707, NACHOCAT);
+VALUES ('00:30:00', '2020-07-25 02:27:53', 58, 691, 'HONEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-01-26 13:56:05, 62, 536, LILLY);
+VALUES ('00:30:00', '2019-09-25 19:36:39', 50, 92, 'PORTABELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-09-14 05:32:26, 55, 146, JAZZ);
+VALUES ('01:00:00', '2019-02-22 19:01:57', 57, 772, 'MINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-07-16 07:16:54, 50, 366, NUBIAN);
+VALUES ('01:00:00', '2019-10-04 06:30:50', 46, 372, 'PEETA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-01-09 23:45:37, 39, 73, EASTER);
+VALUES ('01:30:00', '2020-04-10 03:23:38', 24, 479, 'COOKIE DOUGH');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-01-17 15:55:52, 46, 14, BK);
+VALUES ('00:30:00', '2020-04-22 07:46:49', 55, 56, 'PORTABELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-11-20 16:34:46, 8, 788, FINNIGAN);
+VALUES ('01:00:00', '2019-04-14 07:12:17', 29, 660, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-02-06 23:52:16, 28, 495, LILY);
+VALUES ('01:30:00', '2019-12-06 07:07:21', 43, 339, 'BOU');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-08-10 14:29:43, 45, 384, PATRICK);
+VALUES ('01:00:00', '2019-03-20 13:20:06', 11, 291, 'ROSEMARY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-01-18 16:23:14, 36, 397, NICO);
+VALUES ('00:30:00', '2020-10-18 12:12:50', 8, 134, 'NACHOCAT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-04-01 02:26:21, 22, 238, DOGOL);
+VALUES ('01:30:00', '2019-09-16 03:17:42', 38, 604, 'SLIMMIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-01-11 23:05:30, 29, 370, JASMINE);
+VALUES ('01:30:00', '2020-12-22 20:28:07', 49, 561, 'MIMI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-08-19 06:55:39, 61, 83, RAVI);
+VALUES ('02:00:00', '2019-01-24 08:31:18', 25, 72, 'SCARLET');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-03-17 02:56:09, 7, 69, FLAPJACK);
+VALUES ('01:00:00', '2019-04-26 11:10:42', 60, 413, 'MR. JINGLES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-05-03 21:02:05, 36, 302, SIMBA);
+VALUES ('00:30:00', '2020-01-15 10:46:36', 54, 334, 'LOUIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-05-04 09:45:23, 45, 476, LUCKY);
+VALUES ('00:30:00', '2019-09-13 13:29:53', 51, 5, 'OLIVIA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-03-08 10:32:07, 19, 362, DONNIE);
+VALUES ('00:30:00', '2020-03-12 07:34:01', 17, 95, 'PETER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-03-25 13:16:56, 48, 746, NUBIAN);
+VALUES ('00:30:00', '2019-07-02 22:44:52', 49, 345, 'PIPISTRELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-07-08 03:05:51, 46, 390, ROCKY);
+VALUES ('02:00:00', '2019-04-04 09:38:31', 61, 174, 'MOONBEAM');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-08-10 11:04:13, 60, 383, CALYPSO);
+VALUES ('02:00:00', '2020-03-03 16:25:41', 21, 445, 'RAVI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-08-19 01:32:23, 17, 398, SHERMAN);
+VALUES ('00:30:00', '2020-04-15 09:34:50', 10, 88, 'TUK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-04-18 21:28:53, 56, 252, GERMANY);
+VALUES ('01:00:00', '2020-07-20 17:21:50', 45, 23, 'POP ROCKS');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-07-24 10:42:48, 44, 135, JAZZ);
+VALUES ('01:00:00', '2020-12-11 10:41:24', 10, 645, 'JASMINE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-12-16 17:11:05, 28, 750, BAXTER);
+VALUES ('01:30:00', '2020-04-07 02:02:42', 15, 642, 'HONEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-04-25 23:03:31, 38, 152, BABY);
+VALUES ('02:00:00', '2019-12-14 05:03:07', 40, 518, 'TZATZIKI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-12-21 10:34:29, 16, 723, TONKA);
+VALUES ('02:00:00', '2019-11-12 14:05:14', 49, 531, 'KIKI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-05-23 19:32:40, 19, 363, HONEY);
+VALUES ('02:00:00', '2019-08-03 07:32:27', 46, 129, 'MABON');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-02-27 10:11:38, 27, 70, FRISKY);
+VALUES ('02:00:00', '2020-12-28 06:18:22', 57, 589, 'MAMA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-04-24 09:25:32, 24, 590, LUNA);
+VALUES ('01:30:00', '2020-05-15 22:03:47', 42, 680, 'MINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-05-16 09:02:57, 61, 46, NATHAN);
+VALUES ('02:00:00', '2019-07-10 23:02:15', 7, 71, 'LUNA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-05-23 06:34:09, 16, 90, MR. JINGLES);
+VALUES ('02:00:00', '2020-08-25 05:14:38', 42, 107, 'REESE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-02-25 02:09:07, 16, 395, PINK);
+VALUES ('01:00:00', '2020-03-13 22:46:47', 25, 124, 'JAYMI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-12-11 01:43:59, 15, 332, FRISKY);
+VALUES ('01:30:00', '2020-02-23 23:24:55', 36, 468, 'HONEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-07-02 02:32:16, 36, 364, BLUFF);
+VALUES ('01:00:00', '2019-01-25 18:44:44', 52, 260, 'ROCKY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-03-11 21:20:40, 8, 594, NATE);
+VALUES ('01:00:00', '2020-06-05 23:24:42', 48, 448, 'CHARLES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-04-23 07:07:32, 36, 664, JASMINE);
+VALUES ('00:30:00', '2020-04-18 19:51:07', 15, 760, 'LALA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-04-25 20:21:17, 44, 65, MR. JINGLES);
+VALUES ('00:30:00', '2020-07-05 12:33:20', 52, 337, 'BLUFF');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-04-07 03:53:02, 6, 209, REESE);
+VALUES ('00:30:00', '2019-06-28 19:54:06', 13, 639, 'SIMBA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-10-28 16:53:21, 38, 553, COCOA);
+VALUES ('01:30:00', '2019-09-21 15:03:22', 59, 226, 'CHARITY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-02-16 13:50:16, 45, 180, REESE);
+VALUES ('00:30:00', '2019-02-23 07:40:39', 57, 640, 'TWINKLES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-03-18 15:23:16, 30, 536, LUNA);
+VALUES ('02:00:00', '2020-09-01 05:19:23', 50, 274, 'NINJA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-05-16 14:30:43, 20, 755, DOG);
+VALUES ('01:00:00', '2019-03-13 13:21:19', 57, 688, 'DRE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-01-20 03:15:18, 60, 617, EVERETT);
+VALUES ('02:00:00', '2020-03-04 09:09:26', 40, 623, 'JR');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-08-09 08:16:10, 11, 484, DEUCE);
+VALUES ('00:30:00', '2019-12-11 18:55:10', 29, 586, 'NATHAN');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-08-20 06:23:33, 14, 304, EVERETT);
+VALUES ('00:30:00', '2020-08-19 18:12:03', 50, 2, 'EASTER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-03-26 07:54:03, 56, 420, BAXTER);
+VALUES ('01:00:00', '2020-04-07 12:04:11', 48, 545, 'LUCKY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-04-15 11:56:49, 38, 491, SHERMAN);
+VALUES ('01:30:00', '2020-10-15 19:11:56', 62, 624, 'OLIVIA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-10-19 02:40:13, 52, 787, CHICO);
+VALUES ('01:30:00', '2020-02-06 22:36:59', 29, 313, 'TYLER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-10-11 11:06:13, 15, 712, FINNIGAN);
+VALUES ('01:30:00', '2020-03-08 14:56:05', 56, 37, 'SIMBA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-09-21 01:59:15, 24, 334, KATO);
+VALUES ('01:30:00', '2020-10-24 10:59:42', 33, 356, 'DOGOL');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-02-03 08:29:35, 28, 142, ELSA);
+VALUES ('01:00:00', '2020-03-23 18:59:47', 16, 508, 'SCOOBY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-09-06 16:35:14, 55, 138, GOBSTOPPER);
+VALUES ('02:00:00', '2019-06-06 08:48:38', 15, 563, 'LILY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-12-27 17:31:31, 9, 3, PUCK);
+VALUES ('00:30:00', '2019-08-11 13:36:33', 53, 577, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-02-07 03:03:25, 25, 475, WOBBLE);
+VALUES ('01:30:00', '2020-10-16 20:47:49', 43, 163, 'RIGATONI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-07-01 21:22:26, 44, 789, MAMA);
+VALUES ('01:30:00', '2019-10-15 12:06:26', 41, 508, 'PIPISTRELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-12-06 15:36:24, 41, 483, CALYPSO);
+VALUES ('00:30:00', '2019-11-09 02:06:05', 11, 71, 'PAYLA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-06-26 14:33:23, 42, 117, FRED);
+VALUES ('00:30:00', '2019-03-05 09:41:03', 10, 250, 'SIMBA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-11-11 01:22:41, 27, 504, CHICA);
+VALUES ('00:30:00', '2019-10-17 09:40:49', 23, 520, 'PINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-12-17 20:04:53, 41, 367, JR);
+VALUES ('02:00:00', '2019-01-01 20:04:24', 60, 403, 'JR');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-01-06 07:55:12, 6, 624, BISON);
+VALUES ('02:00:00', '2019-10-07 16:12:44', 25, 624, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-04-18 11:31:26, 28, 270, DOG);
+VALUES ('02:00:00', '2019-07-16 20:21:05', 11, 765, 'RIGATONI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-09-28 11:47:17, 15, 108, HOOPS);
+VALUES ('01:30:00', '2020-02-21 11:12:45', 54, 767, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-05-17 10:01:12, 58, 387, BOB);
+VALUES ('01:30:00', '2019-11-07 18:28:36', 39, 221, 'WOBBLE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-10-11 07:30:47, 54, 7, STAR);
+VALUES ('01:30:00', '2020-12-24 16:42:57', 34, 147, 'HONEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-07-23 05:43:06, 38, 512, RAY);
+VALUES ('01:30:00', '2019-07-13 09:06:28', 10, 475, 'LULU');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-02-27 17:29:25, 29, 260, CALI);
+VALUES ('02:00:00', '2019-08-20 13:50:15', 21, 298, 'SCARLET');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-02-09 10:42:17, 21, 633, JAYMI);
+VALUES ('01:30:00', '2020-08-02 19:52:14', 30, 767, 'KASSI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-09-15 23:31:28, 46, 776, SCOOBY);
+VALUES ('01:00:00', '2019-09-12 04:34:19', 34, 459, 'DRE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-05-06 01:37:30, 12, 282, ZENA);
+VALUES ('02:00:00', '2020-12-10 14:24:11', 47, 79, 'BABY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-07-01 18:42:43, 53, 473, FISH 1);
+VALUES ('02:00:00', '2019-02-11 22:35:30', 34, 85, 'LUNA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-01-10 11:43:51, 13, 616, DOT);
+VALUES ('00:30:00', '2020-02-25 18:08:50', 62, 548, 'BUSTER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-11-13 10:14:39, 16, 410, LANCELOT);
+VALUES ('01:00:00', '2019-08-12 11:49:01', 59, 606, 'DOT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-12-19 19:29:47, 24, 401, NACHOCAT);
+VALUES ('01:30:00', '2019-02-09 14:02:47', 62, 591, 'SLIMMIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-06-22 01:57:39, 12, 282, REBEL);
+VALUES ('02:00:00', '2020-05-28 21:34:06', 49, 288, 'PINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-04-04 19:57:38, 46, 513, ROCKY);
+VALUES ('01:00:00', '2020-01-04 04:15:01', 29, 327, 'DIAMOND');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-03-24 15:12:05, 58, 562, BUTTERBALL);
+VALUES ('01:30:00', '2019-10-28 04:41:31', 51, 399, 'BK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-02-26 12:29:30, 48, 39, DOG);
+VALUES ('02:00:00', '2020-03-04 14:43:01', 10, 438, 'ZENA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-06-03 04:34:36, 14, 9, STAR);
+VALUES ('02:00:00', '2020-11-21 07:12:52', 45, 489, 'MINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-03-08 02:38:33, 54, 109, CALYPSO);
+VALUES ('01:30:00', '2020-06-28 02:30:23', 50, 796, 'TONKA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-05-24 05:32:30, 19, 489, SHERMAN);
+VALUES ('02:00:00', '2020-08-21 12:25:46', 39, 390, 'BUSTER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-06-01 22:36:33, 47, 362, SIR FLIP);
+VALUES ('01:30:00', '2020-10-10 17:38:26', 55, 484, 'DOG');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-05-15 13:38:10, 35, 435, TWINKLES);
+VALUES ('01:00:00', '2020-01-27 22:30:55', 55, 99, 'MONDI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-07-26 07:39:31, 7, 204, FRED);
+VALUES ('00:30:00', '2020-01-24 18:43:51', 44, 788, 'STAR');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-05-20 08:13:04, 18, 542, CHARLES);
+VALUES ('00:30:00', '2020-03-07 13:40:38', 19, 129, 'CALI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-03-01 07:03:12, 39, 788, TUK);
+VALUES ('01:30:00', '2020-01-16 21:28:59', 53, 222, 'LILY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-01-21 07:22:20, 42, 592, DOGOL);
+VALUES ('00:30:00', '2020-09-16 07:29:42', 54, 138, 'SILVER CARP');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-02-05 17:53:04, 18, 316, PENNY);
+VALUES ('00:30:00', '2020-07-18 09:17:02', 61, 604, 'BLUFF');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-05-28 12:56:50, 22, 355, LILY);
+VALUES ('00:30:00', '2019-02-23 11:09:36', 12, 73, 'CALYPSO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-04-06 09:20:59, 17, 91, MR. JINGLES);
+VALUES ('02:00:00', '2019-02-12 22:15:16', 62, 269, 'GORDO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-08-05 06:56:04, 45, 575, SILVER CARP);
+VALUES ('01:30:00', '2019-07-02 06:12:47', 43, 459, 'GOBSTOPPER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-05-09 04:53:18, 50, 599, TYSON);
+VALUES ('02:00:00', '2020-06-16 11:19:04', 48, 756, 'BLUFF');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-11-08 19:20:01, 51, 523, LULU);
+VALUES ('02:00:00', '2019-02-03 18:13:24', 23, 226, 'CHARLES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-09-13 19:07:02, 47, 345, PIPISTRELLO);
+VALUES ('01:00:00', '2019-12-01 10:29:18', 17, 454, 'KATO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-05-20 22:05:04, 12, 643, LILLY);
+VALUES ('01:30:00', '2020-05-08 08:38:37', 10, 91, 'SADIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-11-18 10:43:01, 22, 69, FELECIA);
+VALUES ('01:00:00', '2019-03-26 14:14:58', 13, 246, 'MIMI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-03-28 20:41:13, 43, 785, REESE);
+VALUES ('01:30:00', '2019-06-28 17:52:49', 50, 724, 'KATO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-11-12 20:18:49, 24, 777, MAMA);
+VALUES ('01:00:00', '2019-01-24 19:46:37', 10, 562, 'SADIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-02-14 03:21:40, 44, 178, PEETA);
+VALUES ('02:00:00', '2020-06-20 09:41:50', 10, 390, 'HONEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-09-13 08:04:39, 13, 69, PETER);
+VALUES ('00:30:00', '2020-04-10 01:58:34', 22, 479, 'LILLY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-06-19 18:59:28, 30, 377, LALA);
+VALUES ('01:00:00', '2020-10-08 23:50:23', 48, 144, 'MONDI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-10-09 22:49:44, 30, 191, MOONBEAM);
+VALUES ('02:00:00', '2019-08-10 06:43:16', 13, 30, 'POP ROCKS');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-07-17 06:51:06, 8, 342, JAZZ);
+VALUES ('01:00:00', '2020-03-28 03:08:33', 31, 740, 'GAYLORD');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-01-04 11:15:50, 6, 591, NACHOCAT);
+VALUES ('02:00:00', '2020-03-20 22:27:37', 29, 218, 'PUCK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-08-19 19:04:08, 12, 763, PEETA);
+VALUES ('02:00:00', '2019-02-13 08:02:11', 25, 550, 'JUBILEE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-12-09 17:22:47, 52, 122, FISH 1);
+VALUES ('02:00:00', '2020-09-25 23:37:10', 46, 398, 'HARRIS');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-10-10 05:33:30, 28, 48, NATE);
+VALUES ('01:00:00', '2020-02-16 02:47:52', 43, 291, 'NICO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-05-17 08:54:39, 28, 289, MINK);
+VALUES ('00:30:00', '2019-11-06 06:09:04', 11, 504, 'FALAFEL');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-01-06 11:51:07, 62, 421, BOB);
+VALUES ('01:30:00', '2019-03-06 10:33:53', 29, 137, 'SANGRIA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-08-16 02:38:06, 53, 312, FRED);
+VALUES ('00:30:00', '2020-03-07 02:26:12', 40, 727, 'LOUIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-03-07 19:02:10, 20, 20, SELENA);
+VALUES ('01:30:00', '2020-10-15 18:32:12', 13, 623, 'MOONBEAM');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-06-23 08:57:07, 48, 101, BENTLEY);
+VALUES ('01:00:00', '2020-11-09 01:31:31', 53, 32, 'LUNA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-07-28 01:02:14, 59, 57, LUNA);
+VALUES ('00:30:00', '2019-04-03 23:37:04', 43, 18, 'SLIMMIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-01-19 13:38:52, 18, 377, TYLER);
+VALUES ('00:30:00', '2019-01-27 17:20:21', 6, 704, 'TOASTEDMARSHMALLOW');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-05-08 20:46:21, 14, 736, HONEY);
+VALUES ('01:00:00', '2019-03-01 20:15:53', 10, 495, 'BABY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-07-05 09:53:56, 18, 481, LILY);
+VALUES ('02:00:00', '2019-12-24 07:45:02', 40, 124, 'JASMINE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-08-23 13:19:07, 35, 752, JAZ);
+VALUES ('00:30:00', '2020-04-03 13:14:34', 41, 102, 'BABY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-03-26 20:40:07, 28, 703, WINKLES);
+VALUES ('01:00:00', '2020-03-12 01:44:10', 7, 567, 'PETER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-01-26 14:02:09, 60, 334, JASMINE);
+VALUES ('02:00:00', '2019-12-18 09:34:07', 30, 609, 'MERCEDES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-01-26 22:38:03, 33, 463, LULU);
+VALUES ('01:30:00', '2019-06-26 23:38:43', 21, 675, 'PEANUT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-05-09 10:58:28, 24, 704, MERCEDES);
+VALUES ('01:00:00', '2020-03-01 15:17:46', 12, 250, 'SCARLET');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-06-21 08:08:13, 62, 435, SIMBA);
+VALUES ('00:30:00', '2020-12-06 22:34:08', 58, 785, 'MAMA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-07-12 22:37:37, 26, 628, LOUIE);
+VALUES ('02:00:00', '2020-07-24 15:19:59', 51, 565, 'PIPISTRELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-01-10 07:09:01, 34, 352, FLAPJACK);
+VALUES ('01:30:00', '2020-07-19 02:28:59', 39, 136, 'KATO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-11-01 15:03:41, 41, 584, WINKLES);
+VALUES ('01:00:00', '2019-08-08 13:14:33', 20, 751, 'COOKIE DOUGH');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-06-22 08:01:46, 38, 538, RAVI);
+VALUES ('00:30:00', '2020-08-13 13:15:43', 20, 86, 'PESTO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-07-01 17:22:32, 25, 569, JR);
+VALUES ('01:00:00', '2019-06-27 09:37:20', 60, 628, 'DOGOL');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-01-15 02:34:03, 28, 700, COCOA);
+VALUES ('00:30:00', '2020-10-02 07:35:36', 51, 231, 'BROOKE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-05-02 10:31:18, 50, 100, LANE);
+VALUES ('01:30:00', '2019-12-26 01:21:03', 57, 526, 'PEETA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-08-15 19:11:14, 47, 646, NACHOCAT);
+VALUES ('01:00:00', '2020-06-20 05:15:14', 22, 185, 'JAYMI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-08-04 21:39:53, 39, 776, COOKIE DOUGH);
+VALUES ('01:30:00', '2020-03-14 07:02:10', 45, 51, 'PORTABELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-09-18 13:03:56, 31, 479, POP ROCKS);
+VALUES ('01:00:00', '2019-09-11 13:22:02', 21, 338, 'CHICA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-09-20 11:46:48, 55, 149, MR GREYSON);
+VALUES ('02:00:00', '2020-01-13 23:44:31', 50, 702, 'EVERETT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-09-09 04:35:43, 27, 745, SADIE);
+VALUES ('00:30:00', '2020-06-21 12:26:22', 28, 630, 'GAYLORD');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-12-13 11:40:04, 37, 219, OLIVIA);
+VALUES ('00:30:00', '2020-03-26 10:59:45', 18, 189, 'CHICO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-05-18 10:16:19, 31, 764, LILY);
+VALUES ('01:30:00', '2020-07-24 15:52:49', 32, 189, 'PATRICK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-02-15 15:04:51, 53, 112, CALYPSO);
+VALUES ('02:00:00', '2020-09-25 11:48:33', 22, 590, 'OLIVIA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-03-27 07:23:26, 38, 126, EVERETT);
+VALUES ('00:30:00', '2020-10-21 15:25:33', 38, 597, 'MOONBEAM');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-04-13 09:07:41, 59, 419, BENNA);
+VALUES ('01:30:00', '2020-09-06 03:17:45', 39, 681, 'RICK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-06-06 06:27:48, 55, 620, WILLOW);
+VALUES ('00:30:00', '2019-07-12 13:45:24', 54, 7, 'TRUEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-08-23 18:13:49, 46, 285, RAVI);
+VALUES ('01:00:00', '2020-02-20 18:04:48', 41, 786, 'REESE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-11-10 17:45:32, 46, 620, PETER);
+VALUES ('01:30:00', '2019-10-18 04:38:55', 51, 261, 'FELECIA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-04-23 19:08:36, 24, 487, THYMY);
+VALUES ('01:00:00', '2020-08-19 07:10:46', 50, 763, 'BENTLEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-05-01 20:53:51, 50, 551, BUSTER);
+VALUES ('02:00:00', '2019-01-11 12:31:10', 9, 451, 'RAY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-04-06 02:22:57, 39, 560, NACHOCAT);
+VALUES ('01:30:00', '2020-06-21 18:46:11', 47, 763, 'BENTLEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-06-23 15:38:40, 32, 177, SCOOBY);
+VALUES ('00:30:00', '2020-03-10 04:33:27', 26, 101, 'NATHAN');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-12-18 18:36:32, 6, 409, STORM);
+VALUES ('01:30:00', '2020-08-06 05:38:02', 10, 511, 'MR GREYSON');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-09-16 20:13:02, 26, 177, NUBIAN);
+VALUES ('02:00:00', '2020-10-09 20:36:45', 24, 733, 'LILY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-04-19 02:10:28, 61, 587, HOOPS);
+VALUES ('01:30:00', '2019-08-01 14:31:53', 13, 534, 'JASMINE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-12-24 09:09:18, 37, 258, BUSTER);
+VALUES ('01:00:00', '2019-02-05 01:16:45', 19, 468, 'GOBSTOPPER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-06-25 22:37:04, 51, 229, GOBSTOPPER);
+VALUES ('01:30:00', '2019-12-08 04:43:04', 7, 506, 'FRED');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-01-13 20:18:23, 46, 778, CHARITY);
+VALUES ('01:00:00', '2020-04-10 08:50:09', 16, 202, 'PORTABELLO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-06-28 06:03:12, 62, 588, BABY);
+VALUES ('01:30:00', '2019-05-11 09:31:49', 51, 511, 'PINK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-12-25 01:53:21, 61, 185, TYLER);
+VALUES ('01:00:00', '2019-02-27 16:55:45', 13, 459, 'BLUFF');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-02-19 08:28:36, 12, 274, TWINKLES);
+VALUES ('01:00:00', '2019-02-02 01:51:26', 23, 775, 'CHARLES');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-09-21 02:17:20, 62, 715, RAVI);
+VALUES ('00:30:00', '2020-02-15 23:29:10', 52, 262, 'CHARITY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-12-15 05:58:01, 19, 37, GERMANY);
+VALUES ('01:00:00', '2020-01-10 20:49:40', 16, 114, 'MOONBEAM');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-10-07 14:37:06, 35, 435, DRE);
+VALUES ('01:00:00', '2020-09-03 10:27:36', 49, 47, 'LUNA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-11-16 14:06:19, 8, 385, BROOKE);
+VALUES ('02:00:00', '2020-02-21 20:31:25', 42, 168, 'DONNIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-11-21 16:58:56, 10, 520, STORM);
+VALUES ('02:00:00', '2019-10-01 08:52:11', 51, 407, 'REBEL');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-11-22 07:35:47, 21, 419, KIKI);
+VALUES ('02:00:00', '2020-11-15 04:42:41', 45, 387, 'EVERETT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-12-14 01:50:17, 26, 230, MONDI);
+VALUES ('02:00:00', '2020-12-10 02:25:25', 42, 305, 'DEUCE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-12-21 13:28:02, 43, 222, MERCEDES);
+VALUES ('02:00:00', '2020-07-13 05:37:43', 9, 210, 'ROCKO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-04-23 11:04:04, 54, 221, RAVI);
+VALUES ('00:30:00', '2019-05-21 23:30:18', 50, 463, 'JAZ');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-04-06 17:07:18, 21, 677, PORTABELLO);
+VALUES ('01:00:00', '2019-11-21 14:49:16', 37, 776, 'DIAMOND');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-05-24 04:21:19, 44, 37, COOKIE DOUGH);
+VALUES ('00:30:00', '2019-01-15 05:29:30', 27, 714, 'CHICO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-09-22 21:30:07, 59, 318, PLAYER);
+VALUES ('02:00:00', '2019-11-13 17:44:22', 43, 563, 'THYMY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-01-08 11:38:39, 57, 242, RICK);
+VALUES ('01:00:00', '2020-07-21 06:25:38', 25, 129, 'PENNY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-05-27 20:45:47, 48, 252, TUK);
+VALUES ('01:00:00', '2020-07-27 08:04:45', 33, 53, 'JR');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-01-24 20:32:28, 44, 157, KATO);
+VALUES ('01:30:00', '2019-09-11 20:34:57', 47, 468, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-04-24 13:08:53, 56, 685, OLIVIA);
+VALUES ('00:30:00', '2020-11-26 18:48:12', 58, 161, 'PATRICK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-12-19 07:36:17, 46, 405, JR);
+VALUES ('01:00:00', '2019-12-17 18:38:31', 28, 652, 'JASMINE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-03-14 15:33:57, 59, 507, CARLA);
+VALUES ('01:30:00', '2019-12-14 19:34:15', 29, 187, 'LOUIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-04-14 05:09:55, 44, 495, ZENA);
+VALUES ('02:00:00', '2019-03-20 14:23:52', 17, 573, 'LULU');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-12-07 09:48:01, 24, 69, KASSI);
+VALUES ('01:30:00', '2019-08-18 09:01:51', 48, 305, 'SLIMMIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-01-11 01:29:31, 33, 515, MR. JINGLES);
+VALUES ('01:00:00', '2020-04-10 13:14:43', 29, 377, 'CARLA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-01-23 01:36:40, 22, 451, DOT);
+VALUES ('01:00:00', '2020-01-23 01:53:44', 6, 632, 'DOG');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-02-14 09:57:22, 40, 353, DONNIE);
+VALUES ('01:00:00', '2020-02-05 21:56:07', 7, 622, 'TONKA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-02-08 10:06:25, 46, 643, SADIE);
+VALUES ('02:00:00', '2020-06-09 01:26:14', 32, 500, 'RAY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-05-20 10:15:48, 16, 328, TUK);
+VALUES ('01:30:00', '2019-06-25 09:57:36', 40, 773, 'NATHAN');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-10-07 05:38:06, 62, 575, BUTTERBALL);
+VALUES ('02:00:00', '2019-01-20 02:42:26', 40, 378, 'ZENA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-01-19 20:43:35, 21, 758, TRUEY);
+VALUES ('01:30:00', '2020-06-18 13:30:30', 16, 733, 'ELSA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-11-03 15:36:31, 37, 267, NATHAN);
+VALUES ('02:00:00', '2019-04-16 20:50:52', 25, 310, 'CHICO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-01-26 18:22:48, 55, 628, PORTABELLO);
+VALUES ('00:30:00', '2019-11-20 20:30:42', 55, 567, 'FALAFEL');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-07-23 07:59:41, 13, 141, CALI);
+VALUES ('02:00:00', '2020-10-14 13:01:04', 45, 452, 'DONNIE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-04-03 02:31:54, 18, 58, LULU);
+VALUES ('02:00:00', '2019-09-18 21:05:22', 47, 634, 'FRISKY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-10-06 23:13:39, 58, 112, PATRICK);
+VALUES ('01:00:00', '2020-05-14 17:55:57', 26, 276, 'DEUCE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-02-16 13:42:30, 37, 188, TWINKLES);
+VALUES ('00:30:00', '2019-01-10 10:15:55', 24, 712, 'BROOKE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-05-16 10:23:53, 24, 340, CHICA);
+VALUES ('01:30:00', '2019-07-06 20:04:56', 60, 719, 'EASTER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-03-28 03:32:28, 53, 357, DEUCE);
+VALUES ('01:00:00', '2020-09-13 18:25:19', 40, 87, 'BROOKE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-09-07 21:53:23, 33, 746, EVERETT);
+VALUES ('02:00:00', '2019-10-23 07:15:41', 44, 410, 'NACHOCAT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-05-19 17:17:04, 42, 736, JAYMI);
+VALUES ('00:30:00', '2019-05-05 20:17:17', 7, 316, 'SELENA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-03-03 06:58:41, 14, 760, FELECIA);
+VALUES ('01:00:00', '2019-10-19 01:59:30', 24, 282, 'PEETA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-04-18 10:37:36, 42, 734, SCARLET);
+VALUES ('00:30:00', '2019-09-23 05:18:48', 41, 443, 'CALYPSO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-11-12 08:44:17, 38, 59, LUNA);
+VALUES ('01:00:00', '2020-05-06 10:44:12', 58, 554, 'BAXTER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-08-19 01:21:19, 37, 33, SHERMAN);
+VALUES ('02:00:00', '2020-08-16 10:55:59', 18, 538, 'COCONUT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-03-15 11:33:28, 34, 49, SLIMMIE);
+VALUES ('01:30:00', '2019-03-23 09:17:16', 20, 395, 'TZATZIKI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-04-21 07:08:46, 44, 745, JUBILEE);
+VALUES ('00:30:00', '2020-02-19 03:14:16', 50, 732, 'SANGRIA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-08-23 08:55:28, 43, 198, BENTLEY);
+VALUES ('01:00:00', '2019-11-20 22:31:07', 36, 190, 'PEPPER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-07-17 14:43:01, 20, 79, MINK);
+VALUES ('01:30:00', '2019-11-24 07:03:29', 58, 540, 'ROSEMARY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-11-22 15:55:46, 35, 91, GORDO);
+VALUES ('01:00:00', '2019-07-08 18:36:52', 23, 204, 'SHERMAN');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2020-07-28 10:28:54, 59, 302, LANE);
+VALUES ('00:30:00', '2020-12-02 18:18:53', 54, 386, 'PETER');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-05-04 11:50:11, 46, 248, COCOA);
+VALUES ('01:30:00', '2019-12-28 21:06:07', 9, 26, 'OLIVIA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-05-06 07:01:41, 58, 301, TONKA);
+VALUES ('00:30:00', '2020-06-22 13:35:15', 26, 800, 'TUK');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-11-06 23:48:22, 11, 400, LUNA);
+VALUES ('02:00:00', '2019-08-15 07:24:33', 45, 676, 'MONDI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-08-22 03:17:24, 34, 567, SCOOBY);
+VALUES ('01:30:00', '2020-02-15 03:29:50', 32, 48, 'MIMI');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-12-12 14:25:26, 26, 400, PEETA);
+VALUES ('01:30:00', '2020-06-10 21:47:13', 57, 342, 'JUBILEE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-01-18 19:20:26, 43, 343, JASMINE);
+VALUES ('00:30:00', '2020-11-04 12:43:28', 55, 562, 'NACHOCAT');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2020-12-23 11:15:55, 15, 741, SCARLET);
+VALUES ('01:00:00', '2019-08-03 23:47:44', 33, 250, 'PESTO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2020-02-01 21:28:37, 36, 296, KIELBASA);
+VALUES ('01:00:00', '2020-10-14 21:11:23', 7, 394, 'GORDO');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-02-26 06:06:21, 24, 367, DOT);
+VALUES ('00:30:00', '2020-05-21 08:08:34', 7, 29, 'BENTLEY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-06-09 20:05:11, 38, 524, THYMY);
+VALUES ('00:30:00', '2019-06-09 01:15:08', 45, 550, 'BROOKE');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (00:30:00, 2019-05-11 12:14:19, 20, 413, CALI);
+VALUES ('01:00:00', '2019-02-21 06:38:28', 52, 33, 'BOU');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2019-08-14 22:55:09, 55, 616, GORDO);
+VALUES ('01:00:00', '2019-10-09 03:28:21', 13, 471, 'BOB');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-12-22 06:26:06, 8, 267, PORTABELLO);
+VALUES ('00:30:00', '2020-06-03 22:16:44', 31, 510, 'STORM');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:30:00, 2019-08-19 11:27:15, 36, 695, POP ROCKS);
+VALUES ('02:00:00', '2019-02-15 22:56:51', 28, 649, 'LILLY');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (02:00:00, 2019-01-23 17:40:33, 15, 580, LUCKY);
+VALUES ('02:00:00', '2019-05-05 06:49:33', 6, 154, 'SELENA');
 INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name)             
-VALUES (01:00:00, 2020-05-11 05:15:37, 33, 449, OLIVIA);
+VALUES ('02:00:00', '2019-10-11 02:18:18', 16, 337, 'BABY');
