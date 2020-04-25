@@ -12,6 +12,7 @@ const knex = require("knex")({
 })
 
 const generate = async (hourly, count) => {
+  console.log("inserting employees")
   for (let i = 0; i < count; i++) {
     const e = {
       ssn: chance.ssn(), 
@@ -24,7 +25,6 @@ const generate = async (hourly, count) => {
   
     try {
       await knex.insert(e).into("employee")
-      console.log("inserted", i)
     } catch (e) {
       console.error(e.code, e.sqlMessage);
     }
@@ -32,13 +32,13 @@ const generate = async (hourly, count) => {
 }
 
 const employeeTypes = async () => {
+  console.log(`inserting employees into receptionist`)
   for (let i = 1; i <= 5; i++) {
-    console.log(`inserting employee ${i} into receptionist`)
     await knex.insert({ ReceptionistID: i }).into("receptionist")
   }
 
+  console.log(`inserting employees into groomers`)
   for (let i = 6; i <= 62; i++) {
-    console.log(`inserting employee ${i} into groomers`)
     await knex.insert({ GroomerID: i}).into("groomer");
   }
 
@@ -87,6 +87,7 @@ const shifts = async () => {
 }
 
 const clients = async () => {
+  console.log("Inserting clients")
   for (let i = 0; i < 825; i++) {
     const c = {
       fname: chance.first(),
@@ -100,7 +101,6 @@ const clients = async () => {
     
     try {
       await knex.insert(c).into("client");
-      console.log(`Inserted client ${i}`)
     } catch (e) {
       console.log(`Failed to insert client ${i}`)
     }
