@@ -51,6 +51,7 @@ const employeeTypes = async () => {
 }
 
 const shifts = async () => {
+  console.log(`Inserting shifts and assigning employees`);
   const now = new Date();
   
   for (let d = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate()); d <= now; d.setDate(d.getDate() + 1)) {
@@ -67,11 +68,9 @@ const shifts = async () => {
       receptionist: chance.integer({min: 1, max: 5}),
     }
     
-    console.log(`Inserting shifts on ${d}`);
     let [amId] = await knex.insert(shift).into("shift");    
     let [pmId] = await knex.insert(pmShift).into("shift");
     
-    console.log(`Inserting groomers for that shift.`);
     let end = 5;
     for (let i = 0; i < end; i++) {
       try {
@@ -84,6 +83,28 @@ const shifts = async () => {
       }
     }
   }
+  console.log(`Done inserting shifts and assigning employees`);
+}
+
+const clients = async () => {
+  for (let i = 0; i < 825; i++) {
+    const c = {
+      fname: chance.first(),
+      lname: chance.last(),
+      minit: chance.letter({casing: "upper"}),
+      phone_number: chance.phone({formatted: false}),
+      email: chance.email(),
+      address: chance.address(),
+      birthday: chance.birthday()
+    }
+    
+    try {
+      await knex.insert(c).into("client");
+      console.log(`Inserted client ${i}`)
+    } catch (e) {
+      console.log(`Failed to insert client ${i}`)
+    }
+  }
 }
 
 (async () => {
@@ -92,7 +113,7 @@ const shifts = async () => {
     await generate(false, 15);
     await employeeTypes();
     await shifts();
-
+    await clients();
   } catch (e) {
     console.log(e);
     console.log("Error has occured. Rerun SQL file and run this again.")

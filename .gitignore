@@ -2,3 +2,7 @@
 node_modules/
 .vscode/
 venv/
+appointments_insert.sql
+pet_insert.sql
+product_species_insert.sql
+store_product_insert.sql
