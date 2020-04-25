@@ -34,19 +34,19 @@ const generate = async (hourly, count) => {
 const employeeTypes = async () => {
   console.log(`inserting employees into receptionist`)
   for (let i = 1; i <= 5; i++) {
-    await knex.insert({ ReceptionistID: i }).into("receptionist")
+    await knex.insert({ Receptionist_ID: i }).into("receptionist")
   }
 
   console.log(`inserting employees into groomers`)
   for (let i = 6; i <= 62; i++) {
-    await knex.insert({ GroomerID: i}).into("groomer");
+    await knex.insert({ Groomer_ID: i}).into("groomer");
   }
 
   console.log(`inserting employees 63, 64, 65 into managers`)
   await knex.insert([
-    { ManagerID: 65 },
-    { ManagerID: 64 },
-    { ManagerID: 63 },
+    { Manager_ID: 65 },
+    { Manager_ID: 64 },
+    { Manager_ID: 63 },
   ]).into("manager");
 }
 
