@@ -76,7 +76,7 @@ namesids = []
 with open('pet_insert.sql', 'w') as file:
     for x in range(1000):
         pet = generate_pet(owners, names, breeds, species)
-        if tuple([pet[0], [pet[1]]]) in namesids:
+        if tuple([pet[0], pet[1]]) in namesids:
             continue
         namesids.append(tuple([pet[0], pet[1]]))
         file.write('INSERT INTO PET (owner_id, Name, Breed, Species) \
