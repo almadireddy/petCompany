@@ -68,7 +68,7 @@ species = set(['DOG', 'CAT'])
 
 with open('pet_insert.sql', 'w') as file:
     for x in range(1000):
-        file.write('INSERT INTO PET (OwnerID, Name, Breed, Species) \
+        file.write('INSERT INTO PET (owner_id, Name, Breed, Species) \
         \nVALUES ({0}, \'{1}\', \'{2}\', \'{3}\');\n'.format(*generate_pet(owners, names, breeds, species)))
 
 with open('store_product_insert.sql', 'w') as file:
@@ -83,7 +83,7 @@ with open('appointments_insert.sql', 'w') as file:
 
 with open('product_species_insert.sql', 'w') as file:
     for x in range(500):
-        file.write('INSERT INTO PRODUCT_SPECIES (StoreProduct, Species) \
+        file.write('INSERT INTO PRODUCT_SPECIES (Store_Product, Species) \
             \nVALUES ({0}, \'{1}\');\n'.format(*generate_product_species(species)))
 
 with open('species_insert.sql', 'w') as file:
