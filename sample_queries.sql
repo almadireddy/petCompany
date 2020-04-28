@@ -60,3 +60,41 @@ WHERE NOT EXISTS(SELECT *
 SELECT COUNT(*), CURDATE()
 FROM APPOINTMENT a
 WHERE DATE(a.start_time) = CURDATE();
+
+
+/* This next set of queries are how one might traverse 
+    the database starting at a client, then going to their 
+    appointments, then seeing the information 
+    on their pet, what products that might require,
+    which groomer is working and their details, and then finding
+    the information about that shift. */
+
+select @client := c.Client_ID as Client_id, c.Fname, c.MInit, c.Lname, c.Phone_number, c.Email, c.Address, c.Birthday 
+	from CLIENT as c, APPOINTMENT 
+	where exists(
+		select * from appointment where APPOINTMENT.owner_id = c.Client_ID
+	) limit 1;
+
+select Owner_ID, Name, Breed, @species := species as Species from pet where PET.Owner_ID = @client; 
+select * from species where SPECIES.`Name` = @species;
+select Species, @storeProduct := store_product as Store_Product 
+	from PRODUCT_SPECIES 
+	where species = @species limit 1;
+
+select * from STORE_PRODUCTS where STORE_PRODUCTS.Product_ID = @storeProduct;
+
+select appointment_id, duration, owner_id, pet_name, @gId := groomer_id as groomer_id, @time := start_time as start_time
+	from APPOINTMENT where appointment.owner_id = @CLIENT limit 1;
+
+select * from GROOMER where Groomer_ID = @gid;
+select * from EMPLOYEE where Employee_ID = @gid;
+
+select * from SHIFT where SHIFT.date = DATE(@time);
+
+select Shift_ID, shift_type, `date`, supervisor, receptionist 
+	from SHIFT join GROOMER_SHIFT on GROOMER_SHIFT.shift_id = SHIFT.Shift_ID 
+	where
+		GROOMER_SHIFT.groomer_id = @gid and
+		SHIFT.date = DATE(@time) and 
+		(HOUR(@time) < 12 AND SHIFT.shift_type = 'am') OR (HOUR(@time) >= 12 AND SHIFT.shift_type = 'pm');
+
