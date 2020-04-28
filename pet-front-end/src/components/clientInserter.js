@@ -34,39 +34,41 @@ class ClientInserter extends React.Component {
         return (
             <div>
                 <h1>
-                    New Product
+                    New Client
                 </h1>
                 <form onSubmit={this.handleSubmit}>
                 <label>
-                        Brand
+                        First Name
                         <input type='text' name='fname' value={this.state.fname}
                         onChange={this.handleInputChange} />
                     </label>
-                    <br /><label>
-                        Brand
+                    <br />
+                    <label>
+                        Middle Initial
                         <input type='text' name='minit' value={this.state.minit}
                         onChange={this.handleInputChange} />
                     </label>
-                    <br /><label>
-                        Brand
+                    <br />
+                    <label>
+                        Last Name
                         <input type='text' name='lname' value={this.state.lname}
                         onChange={this.handleInputChange} />
                     </label>
                     <br />
                     <label>
-                        Quantity
+                        Phone Number
                         <input type='number' name='phone' value={this.state.phone} 
                         onChange={this.handleInputChange}/>
                     </label>
                     <br />
                     <label>
-                        Brand
+                        Email
                         <input type='text' name='email' value={this.state.email}
                         onChange={this.handleInputChange} />
                     </label>
                     <br />
                     <label>
-                        Name
+                        Address
                         <input type='text' name='address' value={this.state.address}
                         onChange={this.handleInputChange} />
                     </label>
