@@ -1,13 +1,14 @@
 import React from 'react';
 
-class PetInserter extends React.Component {
+class AppointmentInserter extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            duration: 0,
+            start_time: '',
+            groomerID: 0,
             ownerID: 0,
-            name: '',
-            breed: '',
-            species: '',
+            pet: ''
         };
 
         this.handleInputChange = this.handleInputChange.bind(this);
@@ -29,37 +30,43 @@ class PetInserter extends React.Component {
         return (
             <div>
                 <h1>
-                    New Pet
+                    New Appointment
                 </h1>
                 <form onSubmit={this.handleSubmit}>
                     <label>
+                        Duration
+                        <input type='number' name='duration' value={this.state.duration} 
+                        onChange={this.handleInputChange}/>
+                    </label>
+                    <br />
+                    <label>
+                        Start Time
+                        <input type='text' name='start_time' value={this.state.start_time}
+                        onChange={this.handleInputChange} />
+                    </label>
+                    <br />
+                    <label>
+                        Groomer ID
+                        <input type='number' name='groomerID' value={this.state.groomerID} 
+                        onChange={this.handleInputChange}/>
+                    </label>
+                    <br /><label>
                         Owner ID
                         <input type='number' name='ownerID' value={this.state.ownerID} 
                         onChange={this.handleInputChange}/>
                     </label>
                     <br />
                     <label>
-                        Name
-                        <input type='text' name='name' value={this.state.name}
+                        Pet Name
+                        <input type='text' name='pet' value={this.state.pet}
                         onChange={this.handleInputChange} />
                     </label>
                     <br />
-                    <label>
-                        Breed
-                        <input type='text' name='breed' value={this.state.breed}
-                        onChange={this.handleInputChange} />
-                    </label>
-                    <br /><label>
-                        Species
-                        <input type='text' name='species' value={this.state.species}
-                        onChange={this.handleInputChange} />
-                    </label>
-                    <br />
-                    <input type='submit' value='Create Pet' />
+                    <input type='submit' value='Create Appointment' />
                 </form>
             </div>
         );
     }
 }
 
-export default PetInserter;
+export default AppointmentInserter;

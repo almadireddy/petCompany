@@ -1,12 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
-const petInserter = React.lazy(() => import('./components/petInserter'))
+import PetInserter from './components/petInserter'
+import AppointmentInserter from './components/appointmentInserter'
+
+console.log(PetInserter)
 
 function App() {
   return (
-    <div>
-      <petInserter />
+    <div className='App'>
+      <PetInserter />
+      <AppointmentInserter />
     </div>
   );
 }
