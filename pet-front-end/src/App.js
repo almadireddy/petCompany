@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 
-import PetInserter from './components/petInserter'
-import AppointmentInserter from './components/appointmentInserter'
+import PetInserter from './components/petInserter';
+import AppointmentInserter from './components/appointmentInserter';
+import ProductInserter from './components/productInserter';
 
 console.log(PetInserter)
 
@@ -11,6 +12,7 @@ function App() {
     <div className='App'>
       <PetInserter />
       <AppointmentInserter />
+      <ProductInserter />
     </div>
   );
 }
