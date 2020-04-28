@@ -1,4 +1,5 @@
 import React from 'react';
+import inserter from './inserter';
 
 class AppointmentInserter extends React.Component {
     constructor(props) {
@@ -22,6 +23,7 @@ class AppointmentInserter extends React.Component {
     handleSubmit(event) {
         alert('Submitted');
         console.log(this.state)
+        inserter.post('/', ['appointment', this.state])
         event.preventDefault();
         //construct query to insert
     }

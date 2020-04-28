@@ -1,4 +1,5 @@
 import React from 'react';
+import inserter from './inserter';
 
 class ClientInserter extends React.Component {
     constructor(props) {
@@ -24,6 +25,7 @@ class ClientInserter extends React.Component {
     handleSubmit(event) {
         alert('Submitted');
         console.log(this.state)
+        inserter.post('/', ['client', this.state])
         event.preventDefault();
         //construct query to insert
     }

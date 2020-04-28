@@ -1,4 +1,5 @@
 import React from 'react';
+import inserter from './inserter';
 
 class PetInserter extends React.Component {
     constructor(props) {
@@ -21,6 +22,7 @@ class PetInserter extends React.Component {
     handleSubmit(event) {
         alert('Submitted');
         console.log(this.state)
+        inserter.post('/', ['pet', this.state])
         event.preventDefault();
         //construct query to insert
     }
