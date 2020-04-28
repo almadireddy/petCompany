@@ -22,7 +22,8 @@ class ProductInserter extends React.Component {
     handleSubmit(event) {
         alert('Submitted');
         console.log(this.state)
-        console.log(inserter('store_product', event))
+        inserter.post('/', ['store_product', this.state])
+        inserter.get('/')
         event.preventDefault();
         //construct query to insert
     }

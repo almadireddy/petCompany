@@ -1,11 +1,8 @@
-function inserter(table, state) {
-    // return 'hello world'
-    keys = Object.keys(state);
-    vals = Object.values(state);
-    str = 'INSERT INTO ' + table + ' VALUES';
-    for (key in keys) {
-        
-    }
-}
+import axios from 'axios';
+
+const inserter = axios.create({
+    baseURL: 'http://localhost:8000/',
+    timeout: 1000
+});
 
 export default inserter;
