@@ -7,8 +7,8 @@ class AppointmentInserter extends React.Component {
         this.state = {
             duration: 0,
             start_time: '',
-            groomerID: 0,
-            ownerID: 0,
+            groomer_ID: 0,
+            owner_ID: 0,
             pet: ''
         };
 
@@ -49,12 +49,12 @@ class AppointmentInserter extends React.Component {
                     <br />
                     <label>
                         Groomer ID
-                        <input type='number' name='groomerID' value={this.state.groomerID} 
+                        <input type='number' name='groomer_ID' value={this.state.groomer_ID} 
                         onChange={this.handleInputChange}/>
                     </label>
                     <br /><label>
                         Owner ID
-                        <input type='number' name='ownerID' value={this.state.ownerID} 
+                        <input type='number' name='owner_ID' value={this.state.owner_ID} 
                         onChange={this.handleInputChange}/>
                     </label>
                     <br />

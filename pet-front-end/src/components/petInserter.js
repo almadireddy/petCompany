@@ -5,7 +5,7 @@ class PetInserter extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            ownerID: 0,
+            owner_ID: 0,
             name: '',
             breed: '',
             species: '',
@@ -36,7 +36,7 @@ class PetInserter extends React.Component {
                 <form onSubmit={this.handleSubmit}>
                     <label>
                         Owner ID
-                        <input type='number' name='ownerID' value={this.state.ownerID} 
+                        <input type='number' name='owner_ID' value={this.state.owner_ID} 
                         onChange={this.handleInputChange}/>
                     </label>
                     <br />
