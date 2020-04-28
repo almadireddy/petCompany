@@ -22,23 +22,6 @@ def generate_product(brands, names):
     price = float(np.random.randint(99, 10000))/100
     return [quantity, brand, name, price]
 
-def generate_appointment(durations, owners, namesids):
-    duration = (datetime.datetime(2001, 1, 1, 0, 0, 0) + \
-    datetime.timedelta(minutes=int(np.random.choice(durations)))).time()
-    starttime = datetime.time(
-        np.random.randint(1, 24),
-        np.random.randint(1, 60),
-        np.random.randint(1, 60)
-    )
-    date = datetime.date(
-        np.random.randint(2019, 2021),
-        np.random.randint(1, 13),
-        np.random.randint(1, 29)
-    )
-    groomerid = np.random.randint(6, 63) # groomer id values hardcoded bc im lazy
-    (ownerid, name) = namesids[np.random.choice(len(namesids))]
-    return [str(duration), '{0} {1}'.format(date, starttime), groomerid, int(ownerid), name]
-
 def generate_product_species(species):
     id = np.random.randint(1, 101)
     species = random.choice(tuple(species))
@@ -86,11 +69,6 @@ with open('store_product_insert.sql', 'w') as file:
     for x in range(100):
         file.write('INSERT INTO STORE_PRODUCTS (Quantity, Brand, Name, Price) \
             \nVALUES ({0}, \'{1}\', \'{2}\', {3});\n'.format(*generate_product(brands, products)))
-
-with open('appointments_insert.sql', 'w') as file:
-    for x in range(400):
-        file.write('INSERT INTO APPOINTMENT (duration, start_time, groomer_id, owner_id, pet_name) \
-            \nVALUES (\'{0}\', \'{1}\', {2}, {3}, \'{4}\');\n'.format(*generate_appointment(durations, owners, namesids)))
 
 with open('product_species_insert.sql', 'w') as file:
     for x in range(500):

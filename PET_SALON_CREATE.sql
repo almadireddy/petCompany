@@ -87,7 +87,7 @@ DROP TABLE IF EXISTS SHIFT;
 CREATE TABLE SHIFT(
     Shift_ID int not null PRIMARY KEY auto_increment,
     shift_type VARCHAR(2) not null,
-    date datetime not null,
+    date date not null,
     supervisor int not null,
     receptionist int not null,
     CONSTRAINT fk_shift_supervisor FOREIGN KEY (supervisor)
