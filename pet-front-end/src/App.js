@@ -4,6 +4,7 @@ import './App.css';
 import PetInserter from './components/petInserter';
 import AppointmentInserter from './components/appointmentInserter';
 import ProductInserter from './components/productInserter';
+import ClientInserter from './components/clientInserter';
 
 console.log(PetInserter)
 
@@ -13,6 +14,7 @@ function App() {
       <PetInserter />
       <AppointmentInserter />
       <ProductInserter />
+      <ClientInserter />
     </div>
   );
 }
