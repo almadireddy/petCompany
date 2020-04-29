@@ -25,10 +25,10 @@ router.post('/', async(req, res, next) => {
     try {
         let x = await knex.insert(data).into(table);
         console.log(x)
-        res.send('completed');
+        res.send('inserted ' + table);
     } catch (err) {
         console.error(err.code, err.sqlMessage);
-        res.send('error');
+        res.send(err.sqlMessage);
     }
 })
 

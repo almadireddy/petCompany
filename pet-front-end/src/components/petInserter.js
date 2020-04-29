@@ -20,9 +20,12 @@ class PetInserter extends React.Component {
     }
 
     handleSubmit(event) {
-        alert('Submitted');
         console.log(this.state)
-        inserter.post('/', ['pet', this.state])
+        inserter.post('/', ['pet', this.state]).then(function(res) {
+            console.log(res);
+            alert(`${res.status}: ${res.data}`);
+        });
+        
         event.preventDefault();
         //construct query to insert
     }
