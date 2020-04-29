@@ -37,15 +37,22 @@ router.get('/query', async(req, res) => {
     //console.log(e);
     let x = await valtosql(req.query['value']);
     console.log(x);
-    res.send({x});
+    res.send(x);
 })
 
 async function valtosql(val) {
     try {
+        let x;
         switch (parseInt(val)) {
             case 0:
-                let x = await knex('pet').count('*');
-                return x[0]['count(*)'];
+                x = await knex('pet').count('*');
+                console.log(x);
+                return x;
+                break;
+            case 1:
+                x = await knex.select('fname', 'lname', 'minit')
+                .from('client');
+                return x;
                 break;
             default:
                 return 'error';
