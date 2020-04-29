@@ -22,7 +22,7 @@ class Selector extends React.Component {
                 value: this.state['value']
             }
         }).then(function(res) {
-            console.log(res);
+            console.log(res.data);
         });
         event.preventDefault();
     }

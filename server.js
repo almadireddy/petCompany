@@ -37,7 +37,7 @@ router.get('/query', async(req, res) => {
     //console.log(e);
     let x = await valtosql(req.query['value']);
     console.log(x);
-    res.send(x);
+    res.send({x});
 })
 
 async function valtosql(val) {
