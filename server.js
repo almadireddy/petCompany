@@ -32,9 +32,29 @@ router.post('/', async(req, res, next) => {
     }
 })
 
-router.get('/', (res, req) => {
-    console.log('hello world')
-    res.send('completed');
-});
+router.get('/query', async(req, res) => {
+    console.log(req.query);
+    //console.log(e);
+    let x = await valtosql(req.query['value']);
+    console.log(x);
+    res.send('hello world');
+})
+
+async function valtosql(val) {
+    try {
+        switch (parseInt(val)) {
+            case 0:
+                let x = await knex('pet').count('*');
+                return x[0]['count(*)'];
+                break;
+            default:
+                return 'error';
+                break;
+        }
+    } catch (err) {
+        console.error(err.code, err.sqlMessage);
+        return(err.sqlMessage);
+    }
+}
 
 router.listen(8000, () => console.log('listening on port 8000'));
