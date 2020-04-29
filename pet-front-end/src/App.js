@@ -6,13 +6,11 @@ import AppointmentInserter from './components/appointmentInserter';
 import ProductInserter from './components/productInserter';
 import ClientInserter from './components/clientInserter';
 import Selector from './components/selector';
-import { Typography } from 'antd';
 import { Card, Col, Row } from 'antd';
 import 'antd/es/card/style/css';
 import 'antd/es/col/style/css';
 import 'antd/es/row/style/css';
 
-const { Title } = Typography;
 
 
 //console.log(PetInserter)
@@ -24,15 +22,16 @@ function App() {
       <Row gutter={16}>
         <Col span={8}>
           <Card hoverable>
-            <Title>
-              Pet Inserter
-            </Title>
             <PetInserter />
+          </Card>
+        </Col>
+        <Col span={8}>
+          <Card hoverable>
+            <AppointmentInserter />
           </Card>
         </Col>
       </Row>
       </div>
-      <AppointmentInserter />
       <ProductInserter />
       <ClientInserter />
       <Selector />

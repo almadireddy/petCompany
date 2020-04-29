@@ -1,10 +1,9 @@
 import React from 'react';
 import instance from './utils';
 import { Button, Input, InputNumber } from 'antd';
-import { Typography } from 'antd';
+import { Typography, Divider } from 'antd';
 
-import { Card, Col, Row } from 'antd';
-import 'antd/es/card/style/css';
+import { Col, Row } from 'antd';
 import 'antd/es/col/style/css';
 import 'antd/es/row/style/css';
 
@@ -12,8 +11,10 @@ import 'antd/es/button/style/css';
 import 'antd/es/input-number/style/css';
 import 'antd/es/input/style/css';
 import 'antd/es/typography/style/css';
+import 'antd/es/divider/style/css';
 
-const { Text } = Typography;
+
+const { Title, Text } = Typography;
 
 
 class PetInserter extends React.Component {
@@ -53,6 +54,10 @@ class PetInserter extends React.Component {
     render() {
         return (
             <div>
+                <Title>
+                    New Pet
+                </Title>
+                <Divider />
                 <div style={{ marginBottom: 16 }}>
                     <Row>
                         <Col offset={6} span={6}>
