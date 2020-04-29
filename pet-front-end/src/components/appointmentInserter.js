@@ -1,5 +1,7 @@
 import React from 'react';
 import instance from './utils';
+import { Button } from 'antd';
+import 'antd/es/button/style/css';
 
 class AppointmentInserter extends React.Component {
     constructor(props) {
@@ -37,7 +39,6 @@ class AppointmentInserter extends React.Component {
                 <h1>
                     New Appointment
                 </h1>
-                <form onSubmit={this.handleSubmit}>
                     <label>
                         Duration
                         <input type='number' name='duration' value={this.state.duration} 
@@ -67,8 +68,9 @@ class AppointmentInserter extends React.Component {
                         onChange={this.handleInputChange} />
                     </label>
                     <br />
-                    <input type='submit' value='Create Appointment' />
-                </form>
+                    <Button onClick={this.handleSubmit}>
+                        Create Appointment
+                    </Button>
             </div>
         );
     }
