@@ -30,9 +30,13 @@ function App() {
             <AppointmentInserter />
           </Card>
         </Col>
+        <Col span={8}>
+          <Card hoverable>
+            <ProductInserter />
+          </Card>
+        </Col>
       </Row>
       </div>
-      <ProductInserter />
       <ClientInserter />
       <Selector />
     </div>

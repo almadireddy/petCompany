@@ -60,7 +60,7 @@ class PetInserter extends React.Component {
                 <Divider />
                 <div style={{ marginBottom: 16 }}>
                     <Row>
-                        <Col offset={6} span={6}>
+                        <Col span={6}>
                             <Text>Owner ID</Text>
                         </Col>
                         <Col span={6}>
@@ -100,7 +100,7 @@ class PetInserter extends React.Component {
                </div>
                 <div style={{ marginBottom: 16 }}>
                     <Button onClick={this.handleSubmit}>
-                        Create Pet
+                        Insert Pet
                     </Button>
                 </div>
                 
