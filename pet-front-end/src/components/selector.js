@@ -29,16 +29,21 @@ class Selector extends React.Component {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
-                <label>
-                    Select Query:
-                    <select value={this.state.value} onChange={this.handleChange}>
-                        <option value='0'>Show count of largest population</option>
-                        <option value='1'>Show a listing of a key entity in the database</option>
-                    </select>
-                </label>
-                <input type='submit' value='Execute' />
-            </form>
+            <div>
+                <h1>
+                    Queries
+                </h1>
+                <form onSubmit={this.handleSubmit}>
+                    <label>
+                        Select Query:
+                        <select value={this.state.value} onChange={this.handleChange}>
+                            <option value='0'>Show count of largest population</option>
+                            <option value='1'>Show a listing of a key entity in the database</option>
+                        </select>
+                    </label>
+                    <input type='submit' value='Execute' />
+                </form>
+            </div>
         )
     }
 }
