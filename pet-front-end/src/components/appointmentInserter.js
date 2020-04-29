@@ -1,5 +1,5 @@
 import React from 'react';
-import inserter from './inserter';
+import instance from './utils';
 
 class AppointmentInserter extends React.Component {
     constructor(props) {
@@ -22,7 +22,7 @@ class AppointmentInserter extends React.Component {
 
     handleSubmit(event) {
         console.log(this.state)
-        inserter.post('/', ['appointment', this.state]).then(function(res) {
+        instance.post('/', ['appointment', this.state]).then(function(res) {
             console.log(res);
             alert(`${res.status}: ${res.data}`);
         });

@@ -5,8 +5,9 @@ import PetInserter from './components/petInserter';
 import AppointmentInserter from './components/appointmentInserter';
 import ProductInserter from './components/productInserter';
 import ClientInserter from './components/clientInserter';
+import Selector from './components/selector';
 
-console.log(PetInserter)
+//console.log(PetInserter)
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AppointmentInserter />
       <ProductInserter />
       <ClientInserter />
+      <Selector />
     </div>
   );
 }

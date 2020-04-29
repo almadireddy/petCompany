@@ -1,5 +1,5 @@
 import React from 'react';
-import inserter from './inserter';
+import instance from './utils';
 
 class PetInserter extends React.Component {
     constructor(props) {
@@ -21,7 +21,7 @@ class PetInserter extends React.Component {
 
     handleSubmit(event) {
         console.log(this.state)
-        inserter.post('/', ['pet', this.state]).then(function(res) {
+        instance.post('/', ['pet', this.state]).then(function(res) {
             console.log(res);
             alert(`${res.status}: ${res.data}`);
         });

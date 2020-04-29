@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-const inserter = axios.create({
+const instance = axios.create({
     baseURL: 'http://localhost:8000/',
     timeout: 1000
 });
 
-export default inserter;
+export default instance;
