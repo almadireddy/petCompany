@@ -27,7 +27,7 @@ function App() {
         </Col>
         <Col span={8}>
           <Card hoverable>
-            <AppointmentInserter />
+            <ClientInserter />
           </Card>
         </Col>
         <Col span={8}>
@@ -36,8 +36,8 @@ function App() {
           </Card>
         </Col>
       </Row>
+      <AppointmentInserter />
       </div>
-      <ClientInserter />
       <Selector />
     </div>
   );

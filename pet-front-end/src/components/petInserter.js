@@ -103,7 +103,6 @@ class PetInserter extends React.Component {
                         Insert Pet
                     </Button>
                 </div>
-                
             </div>
         );
     }
