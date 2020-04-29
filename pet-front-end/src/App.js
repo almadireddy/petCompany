@@ -36,7 +36,15 @@ function App() {
           </Card>
         </Col>
       </Row>
-      <AppointmentInserter />
+      </div>
+      <div style={{'padding': '30px', 'margin': '10px'}}>
+      <Row>
+        <Col offset={8} span={8}>
+          <Card hoverable>
+          <AppointmentInserter />
+          </Card>
+        </Col>
+      </Row>
       </div>
       <Selector />
     </div>
