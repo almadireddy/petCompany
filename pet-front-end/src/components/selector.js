@@ -1,6 +1,25 @@
 import React from 'react';
 import instance from './utils';
 import QueryTable from './queryTable';
+import { Card } from 'antd';
+import { Select } from 'antd';
+import { Row, Col, Input } from 'antd';
+import { Typography, Divider } from 'antd';
+import { Button } from 'antd';
+
+import 'antd/es/card/style/css';
+import 'antd/es/row/style/css';
+import 'antd/es/col/style/css';
+import 'antd/es/input/style/css';
+import 'antd/es/typography/style/css';
+import 'antd/es/divider/style/css';
+import 'antd/es/button/style/css';
+import 'antd/es/select/style/css';
+
+
+const { Title, Text } = Typography
+const { Option } = Select
+const { TextArea } = Input
 
 class Selector extends React.Component {
     constructor(props) {
@@ -15,8 +34,8 @@ class Selector extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleChange(event) {
-        this.setState({value: event.target.value});
+    handleChange(x) {
+        this.setState({value: x});
     }
 
     changeQuery(event) {
@@ -27,7 +46,7 @@ class Selector extends React.Component {
         event.preventDefault();
         console.log(this.state);
         let x;
-        if (this.state.query !== '') {
+        if (this.state.value == 5 && this.state.query !== '') {
             x = await instance.get('/query', {
                 params: {
                     value: this.state['query']
@@ -48,35 +67,61 @@ class Selector extends React.Component {
     render() {
         return (
             <div>
-                <h1>
-                    Queries
-                </h1>
-                <form onSubmit={this.handleSubmit}>
-                    <label>
-                        Select Query:
-                        <select value={this.state.value} onChange={this.handleChange}>
-                            <option value='0'>Show count of largest population</option>
-                            <option value='1'>Show a listing of a key entity in the database</option>
-                            <option value='2'>Show a list of entities that must function together 
-                            (Show a list of managers and receptionists who work together (JOIN))</option>
-                            <option value='3'>Show the cost of an occurrence, derived 
-                            using aggregate functions (Cost to groom a pet)</option>
-                            <option value='4'>Show a schedule for multiple occurrences, 
-                            sorted by date and time (today’s appointments)</option>
-                        </select>
-                    </label>
-                    <br />
-                    <label>
-                        Execute my own Query: 
-                        <textarea value={this.state.query} onChange={this.changeQuery} />
-                    </label>
-                    <input type='submit' value='Execute' />
-                </form>
-                <div>
-                    {this.state.table && (
-                        <QueryTable table={this.state.table} />
-                    )}
-                </div>
+                <Card>
+                    <Row>
+                        <Col>
+                            <Title>
+                                Queries
+                            </Title>
+                        </Col>
+                    </Row>
+                    <Divider/>
+                    <Row style={{'marginBottom': 15}}>
+                        <Col span={6}>
+                            <Text>
+                                Select Query:
+                            </Text>
+                        </Col>
+                        <Col span={18}>
+                            <Select style={{width: '100%'}} value={this.state.value} onChange={this.handleChange}>
+                            <Option value='0'>Show count of largest population</Option>
+                            <Option value='1'>Show a listing of a key entity in the database</Option>
+                            <Option value='2'>Show a list of entities that must function together 
+                            (Show a list of managers and receptionists who work together (JOIN))</Option>
+                            <Option value='3'>Show the cost of an occurrence, derived 
+                            using aggregate functions (Cost to groom a pet)</Option>
+                            <Option value='4'>Show a schedule for multiple occurrences, 
+                            sorted by date and time (today’s appointments)</Option>
+                            <Option value='5'>Other</Option>
+                            </Select>
+                        </Col>
+                    </Row> 
+                    {this.state.value == 5 && 
+                    <Row style={{'marginBottom': 15}}>
+                        <Col offset={5} span={6}>
+                            <Text>
+                                Execute your own Query:
+                            </Text>
+                        </Col>
+                        <Col span={8}>
+                            <TextArea value={this.state.query} onChange={this.changeQuery} />
+                        </Col>
+                    </Row>}
+                    <Row style={{'marginBottom': 15}}>
+                        <Col offset={9} span={6}>
+                            <Button onClick={this.handleSubmit}>
+                                Execute 
+                            </Button>
+                        </Col>
+                    </Row>
+                </Card>
+                <Row style={{'marginBottom': 30}}>
+                    <Col offset={6} span={12}>
+                    {this.state.table && (<Card>
+                    <QueryTable table={this.state.table} />
+                </Card>)}
+                    </Col>
+                </Row>
             </div>
         )
     }

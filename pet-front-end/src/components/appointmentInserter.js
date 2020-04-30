@@ -2,11 +2,11 @@ import React from 'react';
 import instance from './utils';
 import { Button, Input, InputNumber } from 'antd';
 import { Typography, Divider } from 'antd';
-
+import { TimePicker } from 'antd';
 import { Col, Row } from 'antd';
 import 'antd/es/col/style/css';
 import 'antd/es/row/style/css';
-
+import 'antd/es/time-picker/style/css';
 import 'antd/es/button/style/css';
 import 'antd/es/input-number/style/css';
 import 'antd/es/input/style/css';
@@ -20,7 +20,7 @@ class AppointmentInserter extends React.Component {
         super(props);
         this.state = {
             duration: 0,
-            start_time: '',
+            start_time: new Date(),
             groomer_ID: 0,
             owner_ID: 0,
             pet: ''
@@ -73,7 +73,7 @@ class AppointmentInserter extends React.Component {
                             <Text>Duration</Text>
                         </Col>
                         <Col span={6}>
-                            <InputNumber name='duration' value={this.state.duration} onChange={this.handleDurationChange}/>
+                            <TimePicker name='duration' value={this.state.duration} onChange={this.handleDurationChange}/>
                         </Col>
                     </Row>
                 </div>
@@ -83,7 +83,7 @@ class AppointmentInserter extends React.Component {
                             <Text>Start Time</Text>
                         </Col>
                         <Col span={18}>
-                            <Input allowClear name='start_time' value={this.state.start_time} onChange={this.handleInputChange} />
+                            <Input defaultValue={Date.now()} allowClear name='start_time' value={this.state.start_time} onChange={this.handleInputChange} />
                         </Col>
                     </Row>
                 </div>
