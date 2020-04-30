@@ -20,33 +20,33 @@ router.use(cors());
 
 router.post('/', async(req, res, next) => {
     const [ table, data ] = req.body;
-    console.log(table);
-    console.log(data);
+    //console.log(table);
+    //console.log(data);
     try {
         let x = await knex.insert(data).into(table);
-        console.log(x)
+        //console.log(x)
         res.send('inserted ' + table);
     } catch (err) {
-        console.error(err.code, err.sqlMessage);
+        //console.error(err.code, err.sqlMessage);
         res.send(err.sqlMessage);
     }
 })
 
 router.get('/sample-query', async(req, res) => {
-    console.log(req.query);
+    //console.log(req.query);
     //console.log(e);
     let x = await valtosql(req.query['value']);
-    console.log(x);
+    //console.log(x);
     res.send(x);
 })
 
 router.get('/query', async(req, res) => {
-    console.log(req.query);
+    //console.log(req.query);
     let x;
     try {
         x = await knex.raw(req.query['value']);
         x = x[0];
-        console.log(x);
+        //console.log(x);
     } catch {
         x = null;
     }
@@ -59,7 +59,7 @@ async function valtosql(val) {
         switch (parseInt(val)) {
             case 0:
                 x = await knex('pet').count('*');
-                console.log(x);
+                //console.log(x);
                 return x;
                 break;
             case 1:
@@ -92,7 +92,7 @@ async function valtosql(val) {
                 break;
         }
     } catch (err) {
-        console.error(err.code, err.sqlMessage);
+        //console.error(err.code, err.sqlMessage);
         return(null);
     }
 }

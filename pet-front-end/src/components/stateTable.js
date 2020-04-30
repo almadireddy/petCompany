@@ -28,7 +28,7 @@ class StateTable extends React.Component {
                     State of {this.state.tablename}
                 </h1>
                 {this.state.table && (
-                    <QueryTable table={this.state.table}/>
+                    <QueryTable pageSize={5} table={this.state.table}/>
                 )}
             </div>
         )

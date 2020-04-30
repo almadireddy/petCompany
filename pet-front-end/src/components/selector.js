@@ -96,7 +96,7 @@ class Selector extends React.Component {
                             </Select>
                         </Col>
                     </Row> 
-                    {this.state.value === 5 && 
+                    {this.state.value === '5' && 
                     <Row style={{'marginBottom': 15}}>
                         <Col offset={5} span={6}>
                             <Text>
