@@ -47,7 +47,8 @@ router.get('/query', async(req, res) => {
         x = await knex.raw(req.query['value']);
         x = x[0];
         //console.log(x);
-    } catch {
+    } catch (err) {
+        console.error(err.code, err.sqlMessage);
         x = null;
     }
     res.send(x);
