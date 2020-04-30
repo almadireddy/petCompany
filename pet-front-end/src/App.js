@@ -25,7 +25,7 @@ function App() {
       <Tabs>
         <TabPane tab="INSERT" key="1">
       <div style={{'padding': '30px', 'margin': '10px'}}>
-      <Row gutter={16}>
+      <Row justify={"center"} gutter={16}>
         <Col span={8}>
           <Card hoverable>
             <PetInserter />
@@ -38,8 +38,7 @@ function App() {
         </Col>
       </Row>
       </div>
-      <div style={{'padding': '30px', 'margin': '10px', 'marginBottom': '30px'}}>
-      <Row gutter={16}>
+      <Row justify={"center"} gutter={16}>
         <Col span={8}>
           <Card hoverable>
           <AppointmentInserter />
@@ -51,7 +50,6 @@ function App() {
           </Card>
         </Col>
       </Row>
-      </div>
       </TabPane>
       <TabPane tab='STATE' key='2'>
       <Row>
@@ -119,12 +117,12 @@ function App() {
         </Col>
       </Row>
       <Row gutter={16}>
-        <Col span={18}>
+        <Col span={16}>
           <Card>
           <StateTable table='Shift' />
           </Card>
         </Col>
-        <Col span={6}>
+        <Col span={8}>
           <Card>
           <StateTable table='Groomer_Shift' />
           </Card>
