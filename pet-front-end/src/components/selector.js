@@ -32,13 +32,13 @@ class Selector extends React.Component {
                 params: {
                     value: this.state['query']
                 }
-            })
+            });
         } else {
             x = await instance.get('/sample-query', {
                 params: {
                     value: this.state['value']
                 }
-            })
+            });
         }
 
         console.log(x.data);

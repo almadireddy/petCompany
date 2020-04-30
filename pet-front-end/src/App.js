@@ -6,6 +6,7 @@ import AppointmentInserter from './components/appointmentInserter';
 import ProductInserter from './components/productInserter';
 import ClientInserter from './components/clientInserter';
 import Selector from './components/selector';
+import StateTable from './components/stateTable';
 import { Card, Col, Row } from 'antd';
 import 'antd/es/card/style/css';
 import 'antd/es/col/style/css';
@@ -43,6 +44,11 @@ function App() {
         <Col offset={8} span={8}>
           <Card hoverable>
           <AppointmentInserter />
+          </Card>
+        </Col>
+        <Col offset={8} span={8}>
+          <Card>
+          <StateTable table='pet' />
           </Card>
         </Col>
       </Row>

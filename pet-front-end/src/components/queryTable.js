@@ -2,6 +2,7 @@ import React from 'react';
 import { Table } from 'antd';
 
 function QueryTable(props) {
+    //console.log(props.table)
     const ds = props.table.map((row, i) => {
         return {
             ...row, key: i+1
