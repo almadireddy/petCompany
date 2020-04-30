@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/petcompany/static/css/main.58fe45a1.chunk.css",
+    "main.js": "/petcompany/static/js/main.970947f1.chunk.js",
+    "main.js.map": "/petcompany/static/js/main.970947f1.chunk.js.map",
+    "runtime-main.js": "/petcompany/static/js/runtime-main.9449921c.js",
+    "runtime-main.js.map": "/petcompany/static/js/runtime-main.9449921c.js.map",
+    "static/css/2.8caa14e5.chunk.css": "/petcompany/static/css/2.8caa14e5.chunk.css",
+    "static/js/2.25fb31d7.chunk.js": "/petcompany/static/js/2.25fb31d7.chunk.js",
+    "static/js/2.25fb31d7.chunk.js.map": "/petcompany/static/js/2.25fb31d7.chunk.js.map",
+    "index.html": "/petcompany/index.html",
+    "precache-manifest.f2f61774afae57510b81ff6b28107a0e.js": "/petcompany/precache-manifest.f2f61774afae57510b81ff6b28107a0e.js",
+    "service-worker.js": "/petcompany/service-worker.js",
+    "static/css/2.8caa14e5.chunk.css.map": "/petcompany/static/css/2.8caa14e5.chunk.css.map",
+    "static/css/main.58fe45a1.chunk.css.map": "/petcompany/static/css/main.58fe45a1.chunk.css.map",
+    "static/js/2.25fb31d7.chunk.js.LICENSE.txt": "/petcompany/static/js/2.25fb31d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9449921c.js",
+    "static/css/2.8caa14e5.chunk.css",
+    "static/js/2.25fb31d7.chunk.js",
+    "static/css/main.58fe45a1.chunk.css",
+    "static/js/main.970947f1.chunk.js"
+  ]
+}
