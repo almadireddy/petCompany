@@ -31,10 +31,10 @@ function AboutUs(props) {
             </Title>
             <Row >
                 <Col span={16} style={{padding: 10}}>
-                <Card bordered={false} title='ER Diagram' alt="ER Diagram" cover={<img src={ER}/>}/>
+                <Card bordered={false} title='ER Diagram'  cover={<img alt="ER Diagram" src={ER}/>}/>
                 </Col>
                 <Col span={8} style={{padding: 10}}>
-                <Card bordered={false} title='Schema Diagram' alt="Schema Diagram" cover={<img src={Schema}/>}/>
+                <Card style={{height: 50}} bordered={false} title='Schema Diagram'  cover={<img  alt="Schema Diagram" src={Schema}/>}/>
                 </Col>
             </Row>
             <Row>
@@ -56,7 +56,7 @@ function AboutUs(props) {
                     </Card>
                 </Col>
                 <Col span={6} style={{padding: 10}}>
-                    <Card cover={<img alt='arjun khurana' src='https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-1/58779069_460298154713014_1951286475312070656_o.jpg?_nc_cat=102&_nc_sid=dbb9e7&_nc_ohc=RHXo-D_-ttkAX8v33Dn&_nc_ht=scontent-dfw5-2.xx&oh=55c6788f914fe333c01d1cd8162077c6&oe=5ED2957C'/>}>
+                    <Card cover={<img alt='arjun khurana' src='https://cdn.discordapp.com/attachments/703683427249160237/705487886903934986/IMG_5900.jpg'/>}>
                         <Meta title='Arjun Khurana'/>
                     </Card>
                 </Col>
