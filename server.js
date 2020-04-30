@@ -55,10 +55,24 @@ async function valtosql(val) {
                 return x;
                 break;
             case 2:
-                x = await knex.raw('SELECT r.Fname, r.Lname, m.Fname, m.Lname \
-                FROM MANAGER m, SHIFT s, RECEPTIONIST r \
-                WHERE s.supervisor = m.id AND s.receptionist = r.id');
-                return x;
+                x = await knex.raw('SELECT DISTINCT r.name AS receptionist, m.name AS manager\
+                FROM EMPLOYEE r, EMPLOYEE m, SHIFT \
+                WHERE SHIFT.supervisor = r.employee_id AND SHIFT.receptionist = m.employee_id;');
+                return x[0];
+                break;
+            case 3:
+                x = await knex.raw('SELECT AVG((HOUR(a.duration) + MINUTE(a.duration)/60) \
+                * g.hourly_wage) AS cost\
+                FROM APPOINTMENT a, EMPLOYEE g \
+                WHERE a.groomer_id = g.employee_id;');
+                return x[0];
+                break;
+            case 4:
+                x = await knex.raw('SELECT * \
+                FROM APPOINTMENT \
+                WHERE date(start_time) = CURDATE() \
+                ORDER BY start_time;');
+                return x[0];
                 break;
             default:
                 return null;

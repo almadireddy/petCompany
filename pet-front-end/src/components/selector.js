@@ -43,6 +43,10 @@ class Selector extends React.Component {
                             <option value='1'>Show a listing of a key entity in the database</option>
                             <option value='2'>Show a list of entities that must function together 
                             (Show a list of managers and receptionists who work together (JOIN))</option>
+                            <option value='3'>Show the cost of an occurrence, derived 
+                            using aggregate functions (Cost to groom a pet)</option>
+                            <option value='4'>Show a schedule for multiple occurrences, 
+                            sorted by date and time (today’s appointments)</option>
                         </select>
                     </label>
                     <input type='submit' value='Execute' />
