@@ -44,9 +44,9 @@ class Selector extends React.Component {
 
     async handleSubmit(event) {
         event.preventDefault();
-        console.log(this.state);
+        //console.log(this.state);
         let x;
-        if (this.state.value === 5 && this.state.query !== '') {
+        if (this.state.value === '5' && this.state.query !== '') {
             x = await instance.get('/query', {
                 params: {
                     value: this.state['query']
@@ -60,7 +60,7 @@ class Selector extends React.Component {
             });
         }
 
-        console.log(x.data);
+        //console.log(x.data);
         this.setState({table: x.data});
     }
 
