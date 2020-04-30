@@ -7,9 +7,11 @@ class Selector extends React.Component {
         super(props);
         this.state = {
             value: 0,
-            table: null
+            table: null,
+            query: ''
         };
         this.handleChange = this.handleChange.bind(this);
+        this.changeQuery = this.changeQuery.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
@@ -17,14 +19,28 @@ class Selector extends React.Component {
         this.setState({value: event.target.value});
     }
 
+    changeQuery(event) {
+        this.setState({query: event.target.value});
+    }
+
     async handleSubmit(event) {
         event.preventDefault();
-        console.log(this.state)
-        let x = await instance.get('/query', {
-            params: {
-                value: this.state['value']
-            }
-        })
+        console.log(this.state);
+        let x;
+        if (this.state.query !== '') {
+            x = await instance.get('/query', {
+                params: {
+                    value: this.state['query']
+                }
+            })
+        } else {
+            x = await instance.get('/sample-query', {
+                params: {
+                    value: this.state['value']
+                }
+            })
+        }
+
         console.log(x.data);
         this.setState({table: x.data});
     }
@@ -48,6 +64,11 @@ class Selector extends React.Component {
                             <option value='4'>Show a schedule for multiple occurrences, 
                             sorted by date and time (today’s appointments)</option>
                         </select>
+                    </label>
+                    <br />
+                    <label>
+                        Execute my own Query: 
+                        <textarea value={this.state.query} onChange={this.changeQuery} />
                     </label>
                     <input type='submit' value='Execute' />
                 </form>

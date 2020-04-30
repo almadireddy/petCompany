@@ -10,6 +10,7 @@ import { Card, Col, Row } from 'antd';
 import 'antd/es/card/style/css';
 import 'antd/es/col/style/css';
 import 'antd/es/row/style/css';
+import 'antd/dist/antd.css';
 
 
 

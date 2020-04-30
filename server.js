@@ -32,11 +32,24 @@ router.post('/', async(req, res, next) => {
     }
 })
 
-router.get('/query', async(req, res) => {
+router.get('/sample-query', async(req, res) => {
     console.log(req.query);
     //console.log(e);
     let x = await valtosql(req.query['value']);
     console.log(x);
+    res.send(x);
+})
+
+router.get('/query', async(req, res) => {
+    console.log(req.query);
+    let x;
+    try {
+        x = await knex.raw(req.query['value']);
+        x = x[0];
+        console.log(x);
+    } catch {
+        x = null;
+    }
     res.send(x);
 })
 
