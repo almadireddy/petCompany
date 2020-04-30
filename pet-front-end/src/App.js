@@ -7,6 +7,7 @@ import ProductInserter from './components/productInserter';
 import ClientInserter from './components/clientInserter';
 import Selector from './components/selector';
 import StateTable from './components/stateTable';
+import AboutUs from './components/aboutUs';
 import { Card, Col, Row } from 'antd';
 import { Tabs } from 'antd';
 
@@ -23,7 +24,10 @@ function App() {
   return (
     <div className='App'>
       <Tabs>
-        <TabPane tab="INSERT" key="1">
+        <TabPane tab='ABOUT' key='1'>
+          <AboutUs />
+        </TabPane>
+        <TabPane tab="INSERT" key="2">
       <div style={{'padding': '30px', 'margin': '10px'}}>
       <Row justify={"center"} gutter={16}>
         <Col span={10}>
@@ -51,7 +55,7 @@ function App() {
         </Col>
       </Row>
       </TabPane>
-      <TabPane tab='STATE' key='2'>
+      <TabPane tab='STATE' key='3'>
       <Row>
         <Col span={24}>
           <Card>
@@ -129,7 +133,7 @@ function App() {
         </Col>
       </Row>
       </TabPane>
-      <TabPane tab="QUERY" key="3">
+      <TabPane tab="QUERY" key="4">
       <Row>
         <Col span={24}>
           <Selector />

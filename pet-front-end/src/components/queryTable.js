@@ -18,7 +18,7 @@ function QueryTable(props) {
     }
     return (
         <Table dataSource={ds} columns={c} default
-        pagination={{ showLessItems: true, position: ["bottomCenter"], showQuickJumper: false, pageSize: (props.pageSize ? 5 : 10),pageSizeOptions: ['5', '10', '20'] }} />
+        pagination={{ showLessItems: true, position: ["bottomCenter"], showQuickJumper: false, defaultPageSize: (props.pageSize ? 5 : 10),pageSizeOptions: ['5', '10', '20'] }} />
     );
 }
 

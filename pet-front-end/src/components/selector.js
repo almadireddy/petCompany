@@ -116,7 +116,7 @@ class Selector extends React.Component {
                     </Row>
                 </Card>
                 <Row style={{'marginBottom': 30}}>
-                    <Col offset={6} span={12}>
+                    <Col span={24}>
                     {this.state.table && (<Card>
                     <QueryTable table={this.state.table} />
                 </Card>)}
