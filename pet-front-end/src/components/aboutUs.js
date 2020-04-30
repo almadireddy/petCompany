@@ -27,21 +27,6 @@ function AboutUs(props) {
             </Paragraph>
             <Divider />
             <Title level={2}>
-                Data Model
-            </Title>
-            <Row >
-                <Col span={16} style={{padding: 10}}>
-                <Card bordered={false} title='ER Diagram'  cover={<img alt="ER Diagram" src={ER}/>}/>
-                </Col>
-                <Col span={8} style={{padding: 10}}>
-                <Card style={{height: 50}} bordered={false} title='Schema Diagram'  cover={<img  alt="Schema Diagram" src={Schema}/>}/>
-                </Col>
-            </Row>
-            <Row>
-            </Row>
-
-            <Divider />
-            <Title level={2}>
                 Database Team
             </Title>
             <Row style={{'marginBottom': 15, padding: 15}}>
@@ -66,7 +51,20 @@ function AboutUs(props) {
                     </Card>
                 </Col>
             </Row>
-
+            <Divider />
+            <Title level={2}>
+                Data Model
+            </Title>
+            <Row >
+                <Col span={16} style={{padding: 10}}>
+                <Card bordered={false} title='ER Diagram'  cover={<img alt="ER Diagram" src={ER}/>}/>
+                </Col>
+                <Col span={8} style={{padding: 10}}>
+                <Card style={{height: 50}} bordered={false} title='Schema Diagram'  cover={<img  alt="Schema Diagram" src={Schema}/>}/>
+                </Col>
+            </Row>
+            <Row>
+            </Row>
         </div>
     )
 }
