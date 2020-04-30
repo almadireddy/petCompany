@@ -26,7 +26,7 @@ function App() {
         <TabPane tab="INSERT" key="1">
       <div style={{'padding': '30px', 'margin': '10px'}}>
       <Row gutter={16}>
-        <Col span={8}>
+        <Col offset={4} span={8}>
           <Card hoverable>
             <PetInserter />
           </Card>
@@ -40,7 +40,7 @@ function App() {
       </div>
       <div style={{'padding': '30px', 'margin': '10px', 'marginBottom': '30px'}}>
       <Row gutter={16}>
-        <Col span={8}>
+        <Col offset={4} span={8}>
           <Card hoverable>
           <AppointmentInserter />
           </Card>
