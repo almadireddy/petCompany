@@ -1,5 +1,6 @@
 import React from 'react';
 import instance from './utils';
+import QueryTable from './queryTable';
 
 class Selector extends React.Component {
     constructor(props) {
@@ -43,6 +44,7 @@ class Selector extends React.Component {
                     </label>
                     <input type='submit' value='Execute' />
                 </form>
+                <QueryTable />
             </div>
         )
     }
