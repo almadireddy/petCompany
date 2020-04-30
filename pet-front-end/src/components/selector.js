@@ -6,7 +6,8 @@ class Selector extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: 0
+            value: 0,
+            table: null
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -16,16 +17,16 @@ class Selector extends React.Component {
         this.setState({value: event.target.value});
     }
 
-    handleSubmit(event) {
+    async handleSubmit(event) {
+        event.preventDefault();
         console.log(this.state)
-        instance.get('/query', {
+        let x = await instance.get('/query', {
             params: {
                 value: this.state['value']
             }
-        }).then(function(res) {
-            console.log(res.data);
-        });
-        event.preventDefault();
+        })
+        console.log(x.data);
+        this.setState({table: x.data});
     }
 
     render() {
@@ -40,11 +41,17 @@ class Selector extends React.Component {
                         <select value={this.state.value} onChange={this.handleChange}>
                             <option value='0'>Show count of largest population</option>
                             <option value='1'>Show a listing of a key entity in the database</option>
+                            <option value='2'>Show a list of entities that must function together 
+                            (Show a list of managers and receptionists who work together (JOIN))</option>
                         </select>
                     </label>
                     <input type='submit' value='Execute' />
                 </form>
-                <QueryTable />
+                <div>
+                    {this.state.table && (
+                        <QueryTable table={this.state.table} />
+                    )}
+                </div>
             </div>
         )
     }

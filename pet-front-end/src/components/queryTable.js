@@ -2,39 +2,21 @@ import React from 'react';
 import { Table } from 'antd';
 
 function QueryTable(props) {
-    const dataSource = [
-    {
-        key: '1',
-        name: 'Mike',
-        age: 32,
-        address: '10 Downing Street',
-    },
-    {
-        key: '2',
-        name: 'John',
-        age: 42,
-        address: '10 Downing Street',
-    },
-    ];
-    const columns = [
-    {
-        title: 'Name',
-        dataIndex: 'name',
-        key: 'name',
-    },
-    {
-        title: 'Age',
-        dataIndex: 'age',
-        key: 'age',
-    },
-    {
-        title: 'Address',
-        dataIndex: 'address',
-        key: 'address',
-    },
-    ];
+    const ds = props.table.map((row, i) => {
+        return {
+            ...row, key: i+1
+        };
+    });
+    const c = [];
+    for (const key in props.table[0]) {
+        //console.log(key);
+        c.push({
+            title: key,
+            dataIndex: key
+        })
+    }
     return (
-        <Table dataSource={dataSource} columns={columns} />
+        <Table dataSource={ds} columns={c} />
     );
 }
 

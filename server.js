@@ -54,13 +54,19 @@ async function valtosql(val) {
                 .from('client');
                 return x;
                 break;
+            case 2:
+                x = await knex.raw('SELECT r.Fname, r.Lname, m.Fname, m.Lname \
+                FROM MANAGER m, SHIFT s, RECEPTIONIST r \
+                WHERE s.supervisor = m.id AND s.receptionist = r.id');
+                return x;
+                break;
             default:
-                return 'error';
+                return null;
                 break;
         }
     } catch (err) {
         console.error(err.code, err.sqlMessage);
-        return(err.sqlMessage);
+        return(null);
     }
 }
 
