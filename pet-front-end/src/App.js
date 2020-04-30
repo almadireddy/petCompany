@@ -31,9 +31,18 @@ function App() {
             <PetInserter />
           </Card>
         </Col>
-        <Col span={8}>
+        <Col pan={8}>
           <Card hoverable>
             <ClientInserter />
+          </Card>
+        </Col>
+      </Row>
+      </div>
+      <div style={{'padding': '30px', 'margin': '10px', 'marginBottom': '30px'}}>
+      <Row gutter={16}>
+        <Col span={8}>
+          <Card hoverable>
+          <AppointmentInserter />
           </Card>
         </Col>
         <Col span={8}>
@@ -43,22 +52,86 @@ function App() {
         </Col>
       </Row>
       </div>
-      <div style={{'padding': '30px', 'margin': '10px', 'marginBottom': '30px'}}>
+      </TabPane>
+      <TabPane tab='STATE' key='2'>
       <Row>
-        <Col offset={8} span={8}>
-          <Card hoverable>
-          <AppointmentInserter />
-          </Card>
-        </Col>
-        <Col offset={8} span={8}>
+        <Col span={24}>
           <Card>
-          <StateTable table='pet' />
+          <StateTable table='Pet' />
           </Card>
         </Col>
       </Row>
-      </div>
+      <Row>
+        <Col span={24}>
+          <Card>
+          <StateTable table='Client' />
+          </Card>
+        </Col>
+      </Row>
+      <Row>
+        <Col span={24}>
+          <Card>
+          <StateTable table='Appointment' />
+          </Card>
+        </Col>
+      </Row>
+      <Row>
+        <Col span={24}>
+          <Card>
+          <StateTable table='Store_Products' />
+          </Card>
+        </Col>
+      </Row>
+      <Row gutter={16}>
+        <Col span={12}>
+          <Card>
+          <StateTable table='Product_Species' />
+          </Card>
+        </Col>
+        <Col span={12}>
+          <Card>
+          <StateTable table='Species' />
+          </Card>
+        </Col>
+      </Row>
+      <Row>
+        <Col span={24}>
+          <Card>
+          <StateTable table='Employee' />
+          </Card>
+        </Col>
+      </Row>
+      <Row gutter={16}>
+        <Col span={8}>
+          <Card>
+          <StateTable table='Manager' />
+          </Card>
+        </Col>
+        <Col span={8}>
+          <Card>
+          <StateTable table='Groomer' />
+          </Card>
+        </Col>
+        <Col span={8}>
+          <Card>
+          <StateTable table='Receptionist' />
+          </Card>
+        </Col>
+      </Row>
+      <Row gutter={16}>
+        <Col span={18}>
+          <Card>
+          <StateTable table='Shift' />
+          </Card>
+        </Col>
+        <Col span={6}>
+          <Card>
+          <StateTable table='Groomer_Shift' />
+          </Card>
+        </Col>
+      </Row>
       </TabPane>
-      <TabPane tab="QUERY" key="2">
+      <TabPane tab="QUERY" key="3">
       <Row>
         <Col span={24}>
           <Selector />

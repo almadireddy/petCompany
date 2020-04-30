@@ -46,7 +46,7 @@ class Selector extends React.Component {
         event.preventDefault();
         console.log(this.state);
         let x;
-        if (this.state.value == 5 && this.state.query !== '') {
+        if (this.state.value === 5 && this.state.query !== '') {
             x = await instance.get('/query', {
                 params: {
                     value: this.state['query']
@@ -96,7 +96,7 @@ class Selector extends React.Component {
                             </Select>
                         </Col>
                     </Row> 
-                    {this.state.value == 5 && 
+                    {this.state.value === 5 && 
                     <Row style={{'marginBottom': 15}}>
                         <Col offset={5} span={6}>
                             <Text>

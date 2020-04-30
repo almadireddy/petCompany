@@ -17,7 +17,8 @@ function QueryTable(props) {
         })
     }
     return (
-        <Table dataSource={ds} columns={c} />
+        <Table dataSource={ds} columns={c} 
+        pagination={{ pageSizeOptions: ['5', '10', '20'] }} />
     );
 }
 

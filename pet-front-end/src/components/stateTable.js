@@ -9,14 +9,7 @@ class StateTable extends React.Component {
             tablename: props.table,
             table: null
         };
-        //this.call = this.call.bind(this);
     }
-
-    // async call(tablename) {
-    //     return (
-            
-    //     )
-    // }
 
     async componentDidMount() {
         let x = await instance.get('/query', {
@@ -25,12 +18,15 @@ class StateTable extends React.Component {
             }
         })
         this.setState({table: x.data});
-        console.log(this.state);
+        //console.log(this.state);
     }
 
     render() {
         return (
             <div>
+                <h1>
+                    State of {this.state.tablename}
+                </h1>
                 {this.state.table && (
                     <QueryTable table={this.state.table}/>
                 )}
